@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="SImple projekt udacity">
+  <component name="PublishConfigData" serverName="Local serwer default for all projects">
     <serverData>
       <paths name="BIP Biblioteka Polska Cerekiew">
         <serverdata>
@@ -114,6 +114,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="BIP Samodzielny Wojewódzki Szpital">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="BIP Teatr Jana Kochanowskiego">
         <serverdata>
           <mappings>
@@ -206,6 +213,13 @@
         </serverdata>
       </paths>
       <paths name="Livermorium.pl">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Local serwer default for all projects">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
