@@ -19,6 +19,7 @@ body {
     margin: 0;
     font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 h1,
 h2{
     font-family: 'abilition-regular', Helvetica, Arial, sans-serif;
@@ -102,7 +103,31 @@ a:active {
     border-bottom: 2px solid;
     padding-bottom: 10px;
 }
-
+.menu ul{
+    list-style-type: none;
+    margin: auto;
+    background: linear-gradient(to bottom, #000, transparent 100%);
+    padding: 15px 5px 15px 5px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: 600;
+}
+.menu li{
+    display: inline;
+    letter-spacing: 2px;
+}
+.menu li a{
+    padding: 19px 16px;
+}
+.menu li a:hover{
+    background: linear-gradient(to top, forestgreen, transparent 5%);
+    color: black;
+}
+.menu li a:visited{
+    color:#ffa949;
+}
 .intro {
     font-size: 1.25em; /* 20px/16px */
     line-height: 1.6;
@@ -174,8 +199,9 @@ a:active {
 /* Floated Columns ------------------ */
 
 .resorts,
-.tips {
-    width: 46.5%;
+.tips,
+.whitebear{
+    width: 30%;
 }
 
 .tips {
@@ -184,6 +210,10 @@ a:active {
 
 .resorts {
     float: right;
+}
+.whitebear{
+    float: left;
+    margin-left: 5%;
 }
 
 /* Float Clearfix ------------------ */
@@ -205,7 +235,7 @@ a:active {
     }
     .wildlife{
         padding: 10% 12%;
-        margin: 50px 0px 20px;
+        margin: 0px 0px 20px;
     }
 }
 @media (max-width: 768px){
@@ -218,7 +248,7 @@ a:active {
 
     .main-header{
         max-height: 380px;
-        padding: 50px 25px 0px;
+        padding: 65px 25px 0px;
     }
     .title{
         font-size: 1.3rem;
@@ -235,12 +265,19 @@ a:active {
         font-size: 1rem;
     }
     .resorts,
+    .whitebear,
     .tips{
         float:none;
         width: 100%;
     }
     .main-footer{
         padding: 20px 0;
+    }
+    .whitebear{
+        margin:auto;
+    }
+    .menu{
+        font-size: 24px;
     }
 }
 
