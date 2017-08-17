@@ -197,7 +197,16 @@ a:active {
 }
 
 /* Floated Columns ------------------ */
-
+.resorts-main,
+.tips-main{
+    width:46.5%;
+}
+.resorts-main{
+    float: left;
+}
+.tips-main{
+    float: right;
+}
 .resorts,
 .tips,
 .whitebear{
