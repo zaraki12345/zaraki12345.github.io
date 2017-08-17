@@ -195,7 +195,9 @@ a:active {
     width: 50px;
     margin-top: 150px;
 }
-
+.whitebear img{
+    border-radius: 50%;
+}
 /* Floated Columns ------------------ */
 .resorts-main,
 .tips-main{
