@@ -98,6 +98,15 @@ img {
 	animation-duration: 1s;
 	animation-fill-mode: forwards;
 }
+	.logocaption{
+		position: relative;
+	}
+	.smallicon{
+		width: 35px;
+		position: absolute;
+		top:-10px;
+		left: -10px;
+	}
 @keyframes animacja {
 
 	0% {transform: scale(1) translate(2px, 2px);}
