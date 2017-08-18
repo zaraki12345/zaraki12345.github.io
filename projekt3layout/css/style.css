@@ -1,0 +1,180 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+	color: #3a3a3a;
+}
+h1{
+	margin-bottom: 0;
+}
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #093a58;
+}
+
+h2,
+h3 {
+	margin-top: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.25em;
+}
+
+.name a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+}
+.name,
+.main-nav li{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: #fff;
+}
+
+.main-nav a {
+	font-size: .95em;
+	font-weight: 900;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+
+.main-nav a:hover {
+	color: #093a58;
+}
+
+/* ---- Layout Containers ---- */
+.container {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.banner {
+	color: #fff;
+	background: #3acec2;
+	text-align: center;
+	padding: 45px 0;
+}
+
+.main-footer {
+	background: #d9e4ea;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+@keyframes animacja {
+
+	0% {transform: scale(1) translate(2px, 2px);}
+	10%, 20% {transform: scale(1) rotate(-5deg) translate(2px, 2px);}
+	30%, 50%, 70%, 90% {transform: scale(0.9) rotate(5deg) translate(-2px, -2px);}
+	40%, 60%, 80% {transform: scale(0.9) rotate(-5deg) translate(2px, 2px);}
+	100% {transform: scale(1) rotate(0) translate(0px, 0px);}
+
+}
+
+/*@keyframes tada{*/
+	/*100% {transform: translate(0px,0px);}*/
+	/*0% {transform: translate(100%,0px);}*/
+/*}*/
+.animacja {
+	-webkit-animation-name: animacja;
+	animation-name: animacja;
+}
+
+/* =================================
+  Media Queries
+==================================== */
+
+
+@media (min-width: 500px) and (max-width: 768px){
+	.secondary,
+	.primary{
+		width: 50%;
+		float: left;
+		padding: 10px;
+	}
+	
+}
+
+@media (min-width: 769px) {
+	.wrap{
+		min-height: calc(100vh - 89px);
+	}
+
+	/* ---- Columns content ---- */
+
+	.col{
+		float:left;
+		padding: 10px;
+	}
+	.secondary,
+	.tertiary{
+		width: 30%;
+	}
+	.primary{
+		width: 40%;
+	}
+	.feat-img{
+		width: 150px;
+		float: left;
+		padding: 2px;
+		border: 2px solid;
+		margin: 5px 5px;
+	}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	.name{
+		float: left;
+	}
+	.main-nav,
+	.main-nav li{
+		float: right;
+	}
+	.container {
+		width: 80%;
+		max-width: 1150px;
+		margin: 0 auto;
+	}
+}
