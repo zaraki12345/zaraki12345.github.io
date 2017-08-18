@@ -142,6 +142,17 @@ img {
 }
 
 @media (min-width: 1000px) {
+	body{
+		padding-top: 60px;
+	}
+	.main-header{
+		position: fixed;
+		background-color: white;
+		box-shadow: 0 1px 4px black;
+		width: 100%;
+		top: 0;
+		z-index: 9999;
+	}
 	.wrap{
 		min-height: calc(100vh - 89px);
 	}
