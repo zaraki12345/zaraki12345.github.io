@@ -1,0 +1,160 @@
+/* ---- Custom style sheet ---- */
+
+/*-- Base tags --*/
+body{
+    background: url("../img/body.png") no-repeat;
+    background-size: cover;
+}
+hr{
+    background-color: #fff;
+}
+h5{
+    display: inline-block;
+    margin: 0px 15px 20px 0px;
+}
+h2{
+    text-transform: uppercase;
+    color: gray;
+    margin-bottom: 30px;
+}
+b{
+    border:solid #e8eff2 2px;
+}
+/*-- Layout properties --*/
+    .container{
+        max-width: 1000px;
+    }
+    .navbar-brand {
+    background: url("../img/logo.png") no-repeat;
+        width: 131px;
+        height: 41px;
+}
+    .header-text{
+    font-family: 'Pacifico', cursive;
+    color: #22a8b5;
+}
+    .post{
+        background-color: white;
+        border:solid #e8eff2 2px;
+        padding: 40px 40px 40px 80px;
+        max-width: 440px;
+    }
+
+    .logocaption{
+    position: relative;
+    }
+
+    .smallicon{
+    width: 32px;
+    position: absolute;
+    top: -60px;
+    right: -15px;
+    }
+
+    .smallicon2{
+        width: 20px;
+        position: absolute;
+        left: 17px;
+        top: 7px;
+    }
+    .smallicon3{
+        width: 27px;
+        position: absolute;
+        left: 17px;
+        top: 7px;
+    }
+
+    .posticon{
+        width: 105px;
+        height: 105px;
+        position: absolute;
+        border:solid #e8eff2 2px;
+        border-radius: 50%;
+        top: -45px;
+        left: -130px;
+    }
+
+    .post2{
+        max-width: 400px;
+    }
+
+    .card{
+        border:solid #e8eff2 2px;
+        margin: 0 auto;
+    }
+    .small-card{
+        width: 50%;
+        height: 90px;
+        margin: 21% auto;
+    }
+    .medium-card{
+        width: 72%;
+        height: 115px;
+        margin: 15% auto;
+    }
+    .large-card{
+        width: 85%;
+        height: 145px;
+        margin: 8% auto;
+    }
+    .orange-p{
+        color: orange;
+        display: inline;
+        font-weight: bold;
+    }
+    .footer{
+        background-color: #4c575f;
+        height: 100px;
+    }
+/*-- Bootstrap change class style --*/
+.btn-success{
+    background-color: #a8d848;
+    border: 1px solid white;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    padding: 7px 15px 10px 15px;
+}
+.btn-success:hover{
+    background-color: #5bc0de;
+    border: 1px solid white;
+}
+.jumbotron{
+    background: transparent;
+}
+
+.btn-primary{
+    display: block;
+    background-color: #445f81;
+    border: 1px solid white;
+    max-width: 250px;
+    border-radius: 50px;
+    margin: 23px auto;
+    position: relative;
+}
+.btn-secondary{
+    display: block;
+    background-color: #9a8073;
+    border: 1px solid white;
+    max-width: 250px;
+    border-radius: 50px;
+    margin: 23px auto;
+    position: relative;
+    color:white;
+}
+.btn-secondary:hover{
+    background-color: #5bc0de;
+    border: 1px solid white;
+}
+.btn-outline-info{
+    border: 1px solid gray;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    color: gray;
+    padding: 7px 15px 10px 15px;
+}
+.btn-info{
+    background-color: #22a8b5;
+    padding: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
