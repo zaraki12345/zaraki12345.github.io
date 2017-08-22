@@ -5,21 +5,30 @@ body{
     background: url("../img/body.png") no-repeat;
     background-size: cover;
 }
-hr{
-    background-color: #fff;
+h1{
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
-h5{
-    display: inline-block;
-    margin: 0px 15px 20px 0px;
-}
+
 h2{
     text-transform: uppercase;
     color: gray;
     margin-bottom: 30px;
 }
+h5{
+    display: inline-block;
+    margin: auto;
+}
+hr{
+    background-color: #fff;
+}
 b{
     border:solid #e8eff2 2px;
 }
+a:visited{
+    text-decoration: none;
+}
+
 /*-- Layout properties --*/
     .container{
         max-width: 1000px;
@@ -72,6 +81,8 @@ b{
         border-radius: 50%;
         top: -45px;
         left: -130px;
+        background: url("../img/obraz1.png") no-repeat;
+        background-size: cover;
     }
 
     .post2{
@@ -81,6 +92,7 @@ b{
     .card{
         border:solid #e8eff2 2px;
         margin: 0 auto;
+        transition: all 1s ease-out;
     }
     .small-card{
         width: 50%;
@@ -106,6 +118,7 @@ b{
         background-color: #4c575f;
         height: 100px;
     }
+
 /*-- Bootstrap change class style --*/
 .btn-success{
     background-color: #a8d848;
@@ -158,3 +171,46 @@ b{
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+/*-- MEDIA QUERIES --*/
+
+@media (min-width: 320px) and (max-width: 575px){
+    .card{
+        max-width: 180px;
+        margin-top: 20px;
+    }
+    small{
+        display: inline-block;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .card {
+        max-width: 350px;
+    }
+}
+
+/*-- Hover properties and transform/transition --*/
+
+.card:hover{
+    transform: scale(1.1);
+}
+@keyframes animacja {
+
+    0% {transform: scale(1) translate(2px, 2px);}
+    10%, 20% {transform: scale(1.05) rotate(-1deg) translate(2px, 2px);}
+    30%, 50%, 70%, 90% {transform: scale(1.05) rotate(1deg) translate(-2px, -2px);}
+    40%, 60%, 80% {transform: scale(1.05) rotate(-1deg) translate(2px, 2px);}
+    100% {transform: scale(1) rotate(0) translate(0px, 0px);}
+
+}
+.animacja {
+    -webkit-animation-name: animacja;
+    animation-name: animacja;
+}
+
+
+
+
+
+
+
