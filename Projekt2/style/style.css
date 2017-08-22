@@ -42,7 +42,7 @@ h1 {
     transition: all 2s ease-in;
 }
 h1:hover{
-    transform: scale(.5);
+    transform: scale(1.1);
 }
 h2 {
     font-size: 3.3125em; /* 53px/16px  */

@@ -126,6 +126,8 @@ a:visited{
     border-radius: 2rem;
     font-size: 1.2rem;
     padding: 7px 15px 10px 15px;
+    animation-duration: 3s;
+    animation-fill-mode: both;
 }
 .btn-success:hover{
     background-color: #5bc0de;
@@ -211,8 +213,30 @@ a:visited{
     animation-name: animacja;
 }
 
+@keyframes animacja2 {
 
+     0% {transform: translate(0px, -350px);}
+     100% {transform: translate(0px, 0px);}
 
+ }
+.animacja2 {
+    -webkit-animation-name: animacja2;
+    animation-name: animacja2;
+}
+@keyframes animacja3 {
+
+    0% {transform: translate(50%, 0px);}
+    100% {transform: translate(0px, 0px);}
+
+}
+.animacja3 {
+    -webkit-animation-name: animacja3;
+    animation-name: animacja3;
+}
+.head{
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
 
 
 
