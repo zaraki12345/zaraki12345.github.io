@@ -184,7 +184,7 @@ a:visited{
     small{
         display: inline-block;
     }
-    .head{
+    .main-header{
         margin-left: 10%;
     }
 }
@@ -233,7 +233,7 @@ a:visited{
     -webkit-animation-name: animacja3;
     animation-name: animacja3;
 }
-.head{
+.main-header{
     animation-duration: 3s;
     animation-fill-mode: both;
 }
