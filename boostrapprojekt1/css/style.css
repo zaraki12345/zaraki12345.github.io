@@ -238,6 +238,24 @@ a:visited{
     animation-fill-mode: both;
 }
 
-
-
+.image2 {
+    background: url("../img/mountains.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top:solid #e8eff2 2px;
+    border-bottom:solid #e8eff2 2px;
+}
+.image3 {
+    background: url("../img/facebook3.jpg");
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top:solid #e8eff2 2px;
+    border-bottom:solid #e8eff2 2px;
+}
 
