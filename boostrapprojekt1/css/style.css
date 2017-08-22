@@ -187,6 +187,9 @@ a:visited{
     .main-header{
         margin-left: 10%;
     }
+    .container {
+        position: inherit;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .card {
