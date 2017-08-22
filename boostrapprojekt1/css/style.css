@@ -182,6 +182,9 @@ a:visited{
     small{
         display: inline-block;
     }
+    .head{
+        margin-left: 10%;
+    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .card {
