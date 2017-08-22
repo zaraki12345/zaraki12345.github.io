@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eaf02516-c011-4350-b88e-21ac246cde48" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -210,7 +208,7 @@
       <workItem from="1503421497296" duration="3164000" />
       <workItem from="1503426445901" duration="2339000" />
       <workItem from="1503429961827" duration="74000" />
-      <workItem from="1503430205993" duration="1955000" />
+      <workItem from="1503430205993" duration="1993000" />
     </task>
     <task id="LOCAL-00001" summary="Media Queries, rwd, animacja">
       <created>1503427272016</created>
@@ -247,15 +245,22 @@
       <option name="project" value="LOCAL" />
       <updated>1503430660585</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="grafiki body">
+      <created>1503432196988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1503432196988</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28717000" />
+    <option name="totallyTimeSpent" value="28755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1228" height="816" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25165015" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -290,7 +295,8 @@
     <MESSAGE value="head animacja" />
     <MESSAGE value="Footer" />
     <MESSAGE value="articles" />
-    <option name="LAST_COMMIT_MESSAGE" value="articles" />
+    <MESSAGE value="grafiki body" />
+    <option name="LAST_COMMIT_MESSAGE" value="grafiki body" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
