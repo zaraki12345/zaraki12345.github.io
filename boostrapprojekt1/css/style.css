@@ -187,14 +187,26 @@ a:visited{
     .main-header{
         margin-left: 10%;
     }
-    .container {
-        position: inherit;
-    }
 }
 @media (min-width: 576px) and (max-width: 767px) {
     .card {
         max-width: 350px;
     }
+}
+@media (min-width: 1200px){
+    @keyframes animacja3 {
+        0% {transform: translate(350px, 0px);}
+        100% {transform: translate(0px, 0px);}
+    }
+    .animacja3 {
+        -webkit-animation-name: animacja3;
+        animation-name: animacja3;
+    }
+    .main-header{
+        animation-duration: 3s;
+        animation-fill-mode: both;
+    }
+
 }
 
 /*-- Hover properties and transform/transition --*/
@@ -225,20 +237,6 @@ a:visited{
 .animacja2 {
     -webkit-animation-name: animacja2;
     animation-name: animacja2;
-}
-@keyframes animacja3 {
-
-    0% {transform: translate(50%, 0px);}
-    100% {transform: translate(0px, 0px);}
-
-}
-.animacja3 {
-    -webkit-animation-name: animacja3;
-    animation-name: animacja3;
-}
-.main-header{
-    animation-duration: 3s;
-    animation-fill-mode: both;
 }
 
 .image2 {
