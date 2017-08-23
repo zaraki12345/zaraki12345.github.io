@@ -1,5 +1,12 @@
 /* ---- Variabless ---- */
+
+@czas-a: 3s;
+@niebieski: #22a8b5;
+@blekit: #e8eff2;
+
 /* ---- Mixins Less ---- */
+
+
 .border50percent-border-radius {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -11,31 +18,33 @@
   border-radius: 50px;
 }
 /*-- Base tags --*/
-body {
+body{
   background: url("../img/body.png") no-repeat;
   background-size: cover;
 }
-h1 {
+h1{
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-h2 {
+
+h2{
   text-transform: uppercase;
   color: gray;
   margin-bottom: 30px;
 }
-h5 {
+h5{
   display: inline-block;
   margin: auto;
 }
-b {
-  border: solid #e8eff2 2px;
+b{
+  border:solid @blekit 2px;
 }
-a:visited {
+a:visited{
   text-decoration: none;
 }
+
 /*-- Layout properties --*/
-.container {
+.container{
   max-width: 1000px;
 }
 .navbar-brand {
@@ -43,152 +52,156 @@ a:visited {
   width: 131px;
   height: 41px;
 }
-.header-text {
+.header-text{
   font-family: 'Pacifico', cursive;
-  color: #22a8b5;
+  color: @niebieski;
 }
-.post {
+.post{
   background-color: white;
-  border: solid #e8eff2 2px;
+  border:solid @blekit 2px;
   padding: 40px 40px 40px 80px;
   max-width: 440px;
 }
-.logocaption {
+
+.logocaption{
   position: relative;
 }
-.smallicondefault,
-.smallicon,
-.smallicon2,
-.smallicon3 {
+.smallicondefault{
   position: absolute;
 }
-.smallicon {
+.smallicon{
+  &:extend(.smallicondefault);
   width: 32px;
   top: -60px;
   right: -15px;
 }
-.smallicon2 {
+
+.smallicon2{
+  &:extend(.smallicondefault);
   width: 20px;
   left: 17px;
   top: 7px;
 }
-.smallicon3 {
+.smallicon3{
+  &:extend(.smallicondefault);
   width: 22px;
   left: 13px;
   top: 2px;
 }
-.posticon {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
+
+.posticon{
+  .border50percent-border-radius;
   width: 105px;
   height: 105px;
   position: absolute;
-  border: solid #e8eff2 2px;
+  border:solid @blekit 2px;
   top: -45px;
   left: -130px;
   background: url("../img/obraz1.png") no-repeat;
   background-size: cover;
 }
-.post2 {
+
+.post2{
   max-width: 400px;
 }
-.card {
-  border: solid #e8eff2 2px;
+
+.card{
+  border:solid @blekit 2px;
   margin: 0 auto;
   transition: all 1s ease-out;
 }
-.small-card {
+.small-card{
   width: 50%;
   height: 90px;
   margin: 21% auto;
 }
-.medium-card {
+.medium-card{
   width: 72%;
   height: 115px;
   margin: 15% auto;
 }
-.large-card {
+.large-card{
   width: 85%;
   height: 145px;
   margin: 8% auto;
 }
-.orange-p {
+.orange-p{
   color: orange;
   display: inline;
   font-weight: bold;
 }
-.main-footer {
+.main-footer{
   background-color: #4c575f;
   height: 100px;
 }
+
 /*-- Bootstrap change class style --*/
-.jumbotron {
+
+.jumbotron{
   background: transparent;
 }
-.btn-success {
+
+.btn-success{
   background-color: #a8d848;
   border: 1px solid white;
   border-radius: 2rem;
   font-size: 1.2rem;
   padding: 7px 15px 10px 15px;
-  animation-duration: 3s;
+  animation-duration: @czas-a;
   animation-fill-mode: both;
 }
-.btn-success:hover {
+.btn-success:hover{
   background-color: #5bc0de;
   border: 1px solid white;
 }
-.btn-standard,
-.btn-primary,
-.btn-secondary {
+.btn-standard{
   display: block;
   border: 1px solid white;
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
+  .border50pixel-border-radius;
   max-width: 250px;
   margin: 23px auto;
   position: relative;
 }
-.btn-primary {
-  -webkit-border-radius: 50px;
-  -moz-border-radius: 50px;
-  border-radius: 50px;
+.btn-primary{
+  &:extend(.btn-standard);
+  .border50pixel-border-radius;
   background-color: #445f81;
 }
-.btn-secondary {
+.btn-secondary{
+  &:extend(.btn-standard);
   background-color: #583b2c;
-  color: white;
+  color:white;
 }
-.btn-secondary:hover {
+.btn-secondary:hover{
   background-color: #9a8073;
-  color: white;
+  color:white;
   border: 1px solid white;
 }
-.btn-outline-info {
+.btn-outline-info{
   border: 1px solid gray;
   border-radius: 2rem;
   font-size: 1.2rem;
   color: gray;
   padding: 7px 15px 10px 15px;
 }
-.btn-info {
-  background-color: #22a8b5;
+.btn-info{
+  background-color: @niebieski;
   padding: 15px;
   font-weight: bold;
   margin-bottom: 10px;
 }
+
 /*-- MEDIA QUERIES --*/
-@media (min-width: 320px) and (max-width: 575px) {
-  .card {
+
+@media (min-width: 320px) and (max-width: 575px){
+  .card{
     max-width: 180px;
     margin-top: 20px;
   }
-  small {
+  small{
     display: inline-block;
   }
-  .main-header {
+  .main-header{
     margin-left: 10%;
   }
 }
@@ -197,78 +210,63 @@ a:visited {
     max-width: 350px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1200px){
   @keyframes animacja3 {
-    0% {
-      transform: translate(350px, 0px);
-    }
-    100% {
-      transform: translate(0px, 0px);
-    }
+    0% {transform: translate(350px, 0px);}
+    100% {transform: translate(0px, 0px);}
   }
   .animacja3 {
     -webkit-animation-name: animacja3;
     animation-name: animacja3;
   }
-  .main-header {
-    animation-duration: 3s;
+  .main-header{
+    animation-duration: @czas-a;
     animation-fill-mode: both;
   }
+
 }
+
 /*-- Hover properties and transform/transition --*/
-.card:hover {
+
+.card:hover{
   transform: scale(1.1);
 }
 @keyframes animacja {
-  0% {
-    transform: scale(1) translate(2px, 2px);
-  }
-  10%,
-  20% {
-    transform: scale(1.05) rotate(-1deg) translate(2px, 2px);
-  }
-  30%,
-  50%,
-  70%,
-  90% {
-    transform: scale(1.05) rotate(1deg) translate(-2px, -2px);
-  }
-  40%,
-  60%,
-  80% {
-    transform: scale(1.05) rotate(-1deg) translate(2px, 2px);
-  }
-  100% {
-    transform: scale(1) rotate(0) translate(0px, 0px);
-  }
+
+  0% {transform: scale(1) translate(2px, 2px);}
+  10%, 20% {transform: scale(1.05) rotate(-1deg) translate(2px, 2px);}
+  30%, 50%, 70%, 90% {transform: scale(1.05) rotate(1deg) translate(-2px, -2px);}
+  40%, 60%, 80% {transform: scale(1.05) rotate(-1deg) translate(2px, 2px);}
+  100% {transform: scale(1) rotate(0) translate(0px, 0px);}
+
 }
 .animacja {
   -webkit-animation-name: animacja;
   animation-name: animacja;
 }
+
 @keyframes animacja2 {
-  0% {
-    transform: translate(0px, -350px);
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
+
+  0% {transform: translate(0px, -350px);}
+  100% {transform: translate(0px, 0px);}
+
 }
 .animacja2 {
   -webkit-animation-name: animacja2;
   animation-name: animacja2;
 }
-.image-default,
-.image2,
-.image3 {
-  border-top: solid #e8eff2 2px;
-  border-bottom: solid #e8eff2 2px;
+.image-default{
+  border-top:solid @blekit 2px;
+  border-bottom:solid @blekit 2px;
   height: 200px;
   background-size: cover;
 }
 .image2 {
   background: url("../img/mountains.jpg") no-repeat center fixed;
+  &:extend(.image-default);
 }
 .image3 {
   background: url("../img/facebook3.jpg") no-repeat center fixed;
+  &:extend(.image-default);
 }
+
