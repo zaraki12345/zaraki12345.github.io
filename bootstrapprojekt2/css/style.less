@@ -1,49 +1,58 @@
 /* ====== Variables ====== */
+
+
+
 /* ====== Mixins ====== */
+
+
 /* ====== Base tags ====== */
-h1 {
+h1{
   font-size: 30px;
 }
+
 /* ====== Layout tags ====== */
-.header {
+.header{
   background-color: #fcdb00;
   height: 710px;
   width: 100%;
 }
-.image-logo {
+.image-logo{
   background: url("../img/logo.png") no-repeat;
   width: 43px;
   height: 43px;
 }
+
 /* ====== Bootstrap tags ====== */
-.container {
+.container
+{
   max-width: 900px;
 }
-.btn-outline-dark {
+.btn-outline-dark{
   border: none;
   color: black !important;
   font-weight: 800;
 }
-.carousel-indicators {
+.carousel-indicators{
   bottom: 30px;
-}
-.carousel-indicators li {
-  border-radius: 50%;
+  li{
+  border-radius:50%;
   width: 10px;
   height: 10px;
+  }
 }
-.jumbotron {
+.jumbotron{
   background-color: transparent;
 }
+
 /* ====== Media Queries ====== */
-@media (min-device-width: 768px) {
-  h1 {
+@media (min-device-width: 768px){
+  h1{
     margin-bottom: 30px;
   }
-  .lead {
+  .lead{
     margin-bottom: 25px;
   }
-  .carousel-control-next {
+  .carousel-control-next{
     right: -60px;
   }
   .carousel-control-prev {
