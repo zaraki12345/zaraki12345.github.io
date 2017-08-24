@@ -21,7 +21,19 @@ h1{
   width: 43px;
   height: 43px;
 }
-
+.footer{
+  &:extend(.header);
+  background-color: #232527;
+}
+.main-footer h2{
+  color: #fcdb00;
+}
+.contact{
+  li{
+    list-style-type:none;
+    font-size: 14px;
+  }
+}
 /* ====== Bootstrap tags ====== */
 .container
 {
@@ -49,6 +61,9 @@ h1{
   h1{
     margin-bottom: 30px;
   }
+  h2{
+    line-height: 1.6;
+  }
   .lead{
     margin-bottom: 25px;
   }
@@ -57,5 +72,33 @@ h1{
   }
   .carousel-control-prev {
     left: -60px;
+  }
+  .header-features{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    max-width: 700px;
+  }
+  .tinyone-features{
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+  .main-footer{
+    padding-top: 20px;
+  }
+  .form-inline {
+    max-width: 655px;
+    width: 100%;
+  }
+    .form-control{
+      width: 523px !important;
+      margin-right: 20px;
+    }
+  .btn-light{
+    font-weight: bold !important;
+    padding: 8px 25px !important;
+  }
+  .fa-2x{
+    color:#fcdb00;
   }
 }
