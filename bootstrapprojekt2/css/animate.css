@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+
+.download{
+  animation-name: download;
+}
+@keyframes download{
+  0% {
+    top:0px;
+    position: relative;
+  }
+  50%{
+     top:-10px;
+     position: relative;
+   }
+  100%{
+    top:0px;
+    position: relative;
+  }
+}
+.moresize{
+  animation-name: moresize;
+}
+@keyframes moresize{
+  0% {
+    font-size: 3em;
+  }
+  50%{
+    font-size: 4em;
+  }
+  100%{
+    font-size: 3em;
+  }
+}
+
+.changecolor{
+  animation-name: changecolor;
+}
+@keyframes changecolor{
+  0% {
+    color: #fff;
+  }
+  50%{
+    color:black;
+  }
+  100%{
+    color: #fff;
+  }
+}
+
+.changeimg{
+  animation-name: changeimg;
+}
+@keyframes changeimg{
+  0% {
+
+  }
+  100%{
+    background: url("../img/folder.png");
+    width: 51px;
+    height: 48px;
+    left:2px;
+    position: relative;
+  }
+}
+
+.flipX{
+  animation-name:flipX;
+}
+
+@keyframes flipX {
+  0% {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+  100%{
+    -moz-transform: scaleX(1);
+    -o-transform: scaleX(1);
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+.flipY{
+  animation-name:flipY;
+}
+
+@keyframes flipY {
+  0% {
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+  }
+  100%{
+    -moz-transform: scaleY(1);
+    -o-transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+.animated.flipOutX,
+.animated.flipOutY,
+.animated.bounceIn,
+.animated.bounceOut {
+  animation-duration: .75s;
+}
+
+
+
+
