@@ -27,6 +27,7 @@
     position: relative;
   }
 }
+
 .moresize{
   animation-name: moresize;
 }
@@ -35,7 +36,7 @@
     font-size: 3em;
   }
   50%{
-    font-size: 4em;
+    font-size: 3.5em;
   }
   100%{
     font-size: 3em;
@@ -54,22 +55,6 @@
   }
   100%{
     color: #fff;
-  }
-}
-
-.changeimg{
-  animation-name: changeimg;
-}
-@keyframes changeimg{
-  0% {
-
-  }
-  100%{
-    background: url("../img/folder.png");
-    width: 51px;
-    height: 48px;
-    left:2px;
-    position: relative;
   }
 }
 
@@ -111,12 +96,27 @@
 }
 
 .animated.flipOutX,
-.animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
+.animated.flipOutY {
   animation-duration: .75s;
 }
 
 
 
+/* ====== Media Queries ====== */
 
+@media (min-width: 320px) and (max-width: 991px){
+
+  @keyframes moresize{
+    100%{
+      font-size: 3em;
+    }
+  }
+  @keyframes flipY {
+    100%{
+      -moz-transform: scaleY(1);
+      -o-transform: scaleY(1);
+      -webkit-transform: scaleY(1);
+      transform: scaleY(1);
+    }
+  }
+}
