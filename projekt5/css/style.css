@@ -1,0 +1,77 @@
+/* ====== Variables ====== */
+@import "animate.css";
+/* ====== Mixins ====== */
+/* ====== Base tags ====== */
+h1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  font-size: 40px;
+  color: #fff;
+}
+h2,
+h4 {
+  text-transform: uppercase;
+  color: #FFF;
+}
+h4 {
+  padding: 50px 0px 20px 0px;
+}
+/* ====== Layout tags ====== */
+.container {
+  max-width: 1000px;
+}
+.header {
+  background-color: #87509c;
+}
+.header-button {
+  text-align: center;
+  padding: 60px 0px 140px 0px;
+}
+.services {
+  background-color: #17c2a4;
+  height: 100%;
+  padding-bottom: 80px;
+}
+.header-services {
+  color: #fff;
+  padding-top: 125px;
+  padding-bottom: 80px;
+}
+.border-bottom-title {
+  width: 90px;
+  height: 4px;
+  margin: 10px auto;
+  border-bottom: 3px solid #13a78d;
+  box-shadow: inset 0 -10px 14px -10px #17c2a4;
+}
+.ikona {
+  min-height: 150px;
+}
+/* ====== Bootstrap tags ====== */
+.navbar {
+  padding: 50px 0px 140px 0px;
+}
+.btn-secondary {
+  background-color: transparent;
+  border: none;
+  color: #FFF !important;
+  text-transform: uppercase;
+}
+.btn-secondary:hover,
+.btn-primary:hover {
+  background-color: #643a79;
+  border-color: transparent;
+}
+.btn-primary:focus,
+.btn-secondary:focus {
+  box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);
+}
+.btn-primary {
+  background-color: #eb7d4b;
+  border: none;
+  padding: 26px 80px;
+  font-weight: 600;
+  /*box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);*/
+  border-bottom: solid 3px rgba(0, 0, 0, 0.4);
+}
+/* ====== Media Queries ====== */
