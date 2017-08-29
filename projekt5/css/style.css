@@ -221,3 +221,24 @@ h4 {
     max-width: 1000px;
   }
 }
+/* ===== SVG =====*/
+#cut-circ {
+  stroke-dasharray: 192.6;
+  stroke-dashoffset: 0;
+  stroke-width: 10px;
+}
+#cut-circ2 {
+  stroke-dasharray: 160.5;
+  stroke-dashoffset: 0;
+  stroke-width: 10px;
+}
+#cut-circ3 {
+  stroke-dasharray: 149.8;
+  stroke-dashoffset: 0;
+  stroke-width: 10px;
+}
+#cut-circ4 {
+  stroke-dasharray: 181.9;
+  stroke-dashoffset: 0;
+  stroke-width: 10px;
+}

@@ -1,6 +1,109 @@
 @charset "UTF-8";
 
 
+.counter{
+  top: 125px;
+  left: 76px;
+  position: relative;
+}
+.counter span {
+  float:left;
+  width:22px;
+  height:30px;
+  text-indent:-9999px;
+  font-size:0.0001em;
+  background-image:url("../img/counter-2.png");
+}
+
+.counter .digit-9 {
+  background-position:0 -270px;
+
+  animation-name: digitSpin9;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+
+  -webkit-animation-name: digitSpin9;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+
+  -moz-animation-name: digitSpin9;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: 1;
+}
+
+@keyframes digitSpin9 {
+  from { background-position:0 0; }
+  to { background-position:0 -270px; }
+}
+@-webkit-keyframes digitSpin9 {
+  from { background-position:0 0; }
+  to { background-position:0 -270px; }
+}
+@-moz-keyframes digitSpin9 {
+  from { background-position:0 0; }
+  to { background-position:0 -270px; }
+}
+
+.counter .digit-0 {
+  background-position:0 -300px;
+
+  animation-name: digitSpin0;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+
+  -webkit-animation-name: digitSpin0;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+
+  -moz-animation-name: digitSpin0;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: 1;
+}
+
+@keyframes digitSpin0 {
+  from { background-position:0 0; }
+  to { background-position:0 -300px; }
+}
+@-webkit-keyframes digitSpin0 {
+  from { background-position:0 0; }
+  to { background-position:0 -300px; }
+}
+@-moz-keyframes digitSpin0 {
+  from { background-position:0 0; }
+  to { background-position:0 -300px; }
+}
+
+.counter .digit-p {
+  background-position:0 -330px;
+
+  animation-name: digitSpinp;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+
+  -webkit-animation-name: digitSpinp;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+
+  -moz-animation-name: digitSpinp;
+  -moz-animation-duration: 3s;
+  -moz-animation-iteration-count: 1;
+}
+
+@keyframes digitSpinp {
+  from { background-position:0 0; }
+  to { background-position:0 -330px; }
+}
+@-webkit-keyframes digitSpinp {
+  from { background-position:0 0; }
+  to { background-position:0 -330px; }
+}
+@-moz-keyframes digitSpinp {
+  from { background-position:0 0; }
+  to { background-position:0 -330px; }
+}
+
+
+
 .animated {
   animation-duration: 1s;
   animation-fill-mode: both;
