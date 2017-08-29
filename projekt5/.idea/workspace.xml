@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c334644e-1064-4d08-a388-9398b94928fd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/javascript.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Bez nazwy.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Bez nazwy.tiff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/header tekst.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/mountains.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phone.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bootstrapprojekt2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bootstrapprojekt2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/animate.css" afterPath="$PROJECT_DIR$/css/animate.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/javascript.js" afterPath="$PROJECT_DIR$/js/javascript.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,18 +22,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="203" column="66" lean-forward="false" selection-start-line="203" selection-start-column="66" selection-end-line="203" selection-end-column="66" />
+            <state relative-caret-position="469">
+              <caret line="357" column="30" lean-forward="false" selection-start-line="357" selection-start-column="30" selection-end-line="357" selection-end-column="30" />
               <folding>
-                <element signature="e#3026#3032#1" expanded="true" />
-                <element signature="e#4727#4733#1" expanded="true" />
-                <element signature="e#7447#7453#1" expanded="true" />
-                <element signature="e#9889#9895#1" expanded="true" />
-                <element signature="e#11976#11982#1" expanded="true" />
-                <element signature="e#14102#14108#1" expanded="true" />
+                <element signature="e#3061#3067#1" expanded="true" />
+                <element signature="e#4762#4768#1" expanded="true" />
+                <element signature="e#7494#7500#1" expanded="true" />
+                <element signature="e#9951#9957#1" expanded="true" />
+                <element signature="e#12051#12057#1" expanded="true" />
+                <element signature="e#14192#14198#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,18 +42,18 @@
       <file leaf-file-name="javascript.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/javascript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="602">
-              <caret line="253" column="21" lean-forward="false" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="21" />
+            <state relative-caret-position="568">
+              <caret line="246" column="13" lean-forward="false" selection-start-line="246" selection-start-column="13" selection-end-line="246" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -100,8 +94,8 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/js/javascript.js" />
-        <option value="$PROJECT_DIR$/css/style.less" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.less" />
       </list>
     </option>
   </component>
@@ -159,6 +153,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projekt5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projekt5" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -257,7 +265,7 @@
       <option name="presentableId" value="Default" />
       <updated>1503913168287</updated>
       <workItem from="1503913171656" duration="10404000" />
-      <workItem from="1503991217444" duration="26956000" />
+      <workItem from="1503991217444" duration="28237000" />
     </task>
     <task id="LOCAL-00001" summary="Skills, team content">
       <created>1504000236777</created>
@@ -308,18 +316,32 @@
       <option name="project" value="LOCAL" />
       <updated>1504018387409</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DESKTOP AND RWD VERSION&#10;&#10;Added animation of numbers and svg's.&#10;&#10;//&#10;Need to add animation on scroll">
+      <created>1504028507571</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1504028507571</updated>
+    </task>
+    <task id="LOCAL-00009" summary="DESKTOP AND RWD VERSION&#10;&#10;Added animation of numbers and svg's.&#10;&#10;//&#10;Need to add animation on scroll&#10;// &#10;Adding image">
+      <created>1504028606081</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1504028606081</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37360000" />
+    <option name="totallyTimeSpent" value="38641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1234" height="816" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19376026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19376026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -352,7 +374,9 @@
     <MESSAGE value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG&#10;&#10;//&#10;Poprawka buttona bo był za wielki na komórce" />
     <MESSAGE value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG&#10;&#10;//&#10;Dodanie czcionki google fonts i selektora uniwersalnego" />
     <MESSAGE value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;ANIMATION SVG&#10;&#10;//&#10;Poprawki RWD." />
-    <option name="LAST_COMMIT_MESSAGE" value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;ANIMATION SVG&#10;&#10;//&#10;Poprawki RWD." />
+    <MESSAGE value="DESKTOP AND RWD VERSION&#10;&#10;Added animation of numbers and svg's.&#10;&#10;//&#10;Need to add animation on scroll" />
+    <MESSAGE value="DESKTOP AND RWD VERSION&#10;&#10;Added animation of numbers and svg's.&#10;&#10;//&#10;Need to add animation on scroll&#10;// &#10;Adding image" />
+    <option name="LAST_COMMIT_MESSAGE" value="DESKTOP AND RWD VERSION&#10;&#10;Added animation of numbers and svg's.&#10;&#10;//&#10;Need to add animation on scroll&#10;// &#10;Adding image" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -364,12 +388,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3026#3032#1" expanded="true" />
-            <element signature="e#4727#4733#1" expanded="true" />
-            <element signature="e#7447#7453#1" expanded="true" />
-            <element signature="e#9889#9895#1" expanded="true" />
-            <element signature="e#11976#11982#1" expanded="true" />
-            <element signature="e#14102#14108#1" expanded="true" />
+            <element signature="e#3061#3067#1" expanded="true" />
+            <element signature="e#4762#4768#1" expanded="true" />
+            <element signature="e#7494#7500#1" expanded="true" />
+            <element signature="e#9951#9957#1" expanded="true" />
+            <element signature="e#12051#12057#1" expanded="true" />
+            <element signature="e#14192#14198#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -390,6 +414,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/javascript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="357" column="30" lean-forward="false" selection-start-line="357" selection-start-column="30" selection-end-line="357" selection-end-column="30" />
+          <folding>
+            <element signature="e#3061#3067#1" expanded="true" />
+            <element signature="e#4762#4768#1" expanded="true" />
+            <element signature="e#7494#7500#1" expanded="true" />
+            <element signature="e#9951#9957#1" expanded="true" />
+            <element signature="e#12051#12057#1" expanded="true" />
+            <element signature="e#14192#14198#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/animate.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -398,34 +445,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/javascript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="253" column="21" lean-forward="false" selection-start-line="253" selection-start-column="21" selection-end-line="253" selection-end-column="21" />
+        <state relative-caret-position="568">
+          <caret line="246" column="13" lean-forward="false" selection-start-line="246" selection-start-column="13" selection-end-line="246" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="203" column="66" lean-forward="false" selection-start-line="203" selection-start-column="66" selection-end-line="203" selection-end-column="66" />
-          <folding>
-            <element signature="e#3026#3032#1" expanded="true" />
-            <element signature="e#4727#4733#1" expanded="true" />
-            <element signature="e#7447#7453#1" expanded="true" />
-            <element signature="e#9889#9895#1" expanded="true" />
-            <element signature="e#11976#11982#1" expanded="true" />
-            <element signature="e#14102#14108#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
