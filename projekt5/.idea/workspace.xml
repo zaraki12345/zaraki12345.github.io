@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,16 +24,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="315" column="44" lean-forward="false" selection-start-line="315" selection-start-column="44" selection-end-line="315" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="10" column="88" lean-forward="false" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
               <folding>
-                <element signature="e#2937#2943#1" expanded="true" />
-                <element signature="e#4638#4644#1" expanded="true" />
-                <element signature="e#7358#7364#1" expanded="true" />
-                <element signature="e#8505#8511#1" expanded="true" />
-                <element signature="e#10578#10584#1" expanded="true" />
-                <element signature="e#12704#12710#1" expanded="true" />
+                <element signature="e#3026#3032#1" expanded="true" />
+                <element signature="e#4727#4733#1" expanded="true" />
+                <element signature="e#7447#7453#1" expanded="true" />
+                <element signature="e#8594#8600#1" expanded="true" />
+                <element signature="e#10667#10673#1" expanded="true" />
+                <element signature="e#12793#12799#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="animate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/animate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -40,14 +51,20 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="216" column="18" lean-forward="false" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mr</find>
+      <find>load</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -56,6 +73,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/css/animate.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.less" />
       </list>
@@ -101,20 +119,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projekt5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt5" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,7 +217,7 @@
       <option name="presentableId" value="Default" />
       <updated>1503913168287</updated>
       <workItem from="1503913171656" duration="10404000" />
-      <workItem from="1503991217444" duration="15725000" />
+      <workItem from="1503991217444" duration="18495000" />
     </task>
     <task id="LOCAL-00001" summary="Skills, team content">
       <created>1504000236777</created>
@@ -236,11 +240,25 @@
       <option name="project" value="LOCAL" />
       <updated>1504013566002</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG">
+      <created>1504013628142</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1504013628142</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG&#10;&#10;//&#10;Poprawka buttona bo był za wielki na komórce">
+      <created>1504017213537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1504017213537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26129000" />
+    <option name="totallyTimeSpent" value="28899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1234" height="816" extended-state="6" />
@@ -276,7 +294,9 @@
     <MESSAGE value="Skills, team content" />
     <MESSAGE value="portfolio, about content" />
     <MESSAGE value="Desktop version 1 ready. &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG" />
-    <option name="LAST_COMMIT_MESSAGE" value="Desktop version 1 ready. &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG" />
+    <MESSAGE value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG" />
+    <MESSAGE value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG&#10;&#10;//&#10;Poprawka buttona bo był za wielki na komórce" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desktop version 1 ready (rest of file upload). &#10;&#10;To do:&#10;LESS&#10;RWD&#10;ANIMATION SVG&#10;&#10;//&#10;Poprawka buttona bo był za wielki na komórce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -288,12 +308,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#2937#2943#1" expanded="true" />
-            <element signature="e#4638#4644#1" expanded="true" />
-            <element signature="e#7358#7364#1" expanded="true" />
-            <element signature="e#8505#8511#1" expanded="true" />
-            <element signature="e#10578#10584#1" expanded="true" />
-            <element signature="e#12704#12710#1" expanded="true" />
+            <element signature="e#3026#3032#1" expanded="true" />
+            <element signature="e#4727#4733#1" expanded="true" />
+            <element signature="e#7447#7453#1" expanded="true" />
+            <element signature="e#8594#8600#1" expanded="true" />
+            <element signature="e#10667#10673#1" expanded="true" />
+            <element signature="e#12793#12799#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -314,25 +334,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="216" column="18" lean-forward="false" selection-start-line="216" selection-start-column="18" selection-end-line="216" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="315" column="44" lean-forward="false" selection-start-line="315" selection-start-column="44" selection-end-line="315" selection-end-column="44" />
+        <state relative-caret-position="170">
+          <caret line="10" column="88" lean-forward="false" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
           <folding>
-            <element signature="e#2937#2943#1" expanded="true" />
-            <element signature="e#4638#4644#1" expanded="true" />
-            <element signature="e#7358#7364#1" expanded="true" />
-            <element signature="e#8505#8511#1" expanded="true" />
-            <element signature="e#10578#10584#1" expanded="true" />
-            <element signature="e#12704#12710#1" expanded="true" />
+            <element signature="e#3026#3032#1" expanded="true" />
+            <element signature="e#4727#4733#1" expanded="true" />
+            <element signature="e#7447#7453#1" expanded="true" />
+            <element signature="e#8594#8600#1" expanded="true" />
+            <element signature="e#10667#10673#1" expanded="true" />
+            <element signature="e#12793#12799#1" expanded="true" />
           </folding>
         </state>
       </provider>
