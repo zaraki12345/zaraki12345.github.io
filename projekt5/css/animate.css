@@ -19,15 +19,15 @@
   background-position:0 -270px;
 
   animation-name: digitSpin9;
-  animation-duration: 3s;
+  animation-duration: 3.6s;
   animation-iteration-count: 1;
 
   -webkit-animation-name: digitSpin9;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 3.6s;
   -webkit-animation-iteration-count: 1;
 
   -moz-animation-name: digitSpin9;
-  -moz-animation-duration: 3s;
+  -moz-animation-duration: 3.6s;
   -moz-animation-iteration-count: 1;
 }
 
@@ -48,15 +48,15 @@
   background-position:0 -300px;
 
   animation-name: digitSpin0;
-  animation-duration: 3s;
+  animation-duration: 3.4s;
   animation-iteration-count: 1;
 
   -webkit-animation-name: digitSpin0;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 3.4s;
   -webkit-animation-iteration-count: 1;
 
   -moz-animation-name: digitSpin0;
-  -moz-animation-duration: 3s;
+  -moz-animation-duration: 3.4s;
   -moz-animation-iteration-count: 1;
 }
 
@@ -77,15 +77,15 @@
   background-position:0 -330px;
 
   animation-name: digitSpinp;
-  animation-duration: 3s;
+  animation-duration: 3.2s;
   animation-iteration-count: 1;
 
   -webkit-animation-name: digitSpinp;
-  -webkit-animation-duration: 3s;
+  -webkit-animation-duration: 3.2s;
   -webkit-animation-iteration-count: 1;
 
   -moz-animation-name: digitSpinp;
-  -moz-animation-duration: 3s;
+  -moz-animation-duration: 3.2s;
   -moz-animation-iteration-count: 1;
 }
 
