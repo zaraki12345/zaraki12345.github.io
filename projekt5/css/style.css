@@ -35,6 +35,22 @@ h4 {
 .skills {
   padding-bottom: 120px;
 }
+.portfolio {
+  background-color: #ffdd99;
+}
+.about {
+  background-color: #d74680;
+}
+.contact {
+  background-color: #3c5499;
+  padding-bottom: 100px;
+}
+.main-footer {
+  background-color: #344b8e;
+}
+.footer {
+  padding: 20px 0px;
+}
 .header-services {
   color: #fff;
   padding-top: 125px;
@@ -57,15 +73,23 @@ h4 {
 .team small {
   padding-bottom: 10px;
 }
-.circle-image {
+.circle-image,
+.circle-image-about {
   width: 150px;
   height: 150px;
   background-color: #878787;
   border-radius: 50%;
   margin: 0 auto;
 }
+.circle-image-about {
+  width: 100px;
+  height: 100px;
+}
 .border-bottom-services,
-.border-bottom-team {
+.border-bottom-team,
+.border-bottom-portfolio,
+.border-bottom-about,
+.border-bottom-contact {
   width: 90px;
   height: 4px;
   margin: 10px auto;
@@ -75,6 +99,18 @@ h4 {
 .border-bottom-team {
   border-bottom: 3px solid #c7d9e5;
   box-shadow: inset 0 -10px 14px -10px #c7d9e5;
+}
+.border-bottom-portfolio {
+  border-bottom: 3px solid #e5c37f;
+  box-shadow: inset 0 -10px 14px -10px #e5c37f;
+}
+.border-bottom-about {
+  border-bottom: 3px solid #b93c6e;
+  box-shadow: inset 0 -10px 14px -10px #b93c6e;
+}
+.border-bottom-contact {
+  border-bottom: 3px solid #273a71;
+  box-shadow: inset 0 -10px 14px -10px #273a71;
 }
 .ikona {
   min-height: 150px;
@@ -87,6 +123,28 @@ h4 {
   padding-top: 4px;
   color: #fff;
   margin-bottom: 100px;
+}
+.portfolio p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #393939;
+}
+.about h3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 0px;
+}
+.about small {
+  color: #f7be94;
+}
+.about p {
+  color: #fff;
+  padding-top: 8px;
+}
+.contact-form {
+  max-width: 750px;
+  margin: 0 auto;
 }
 /* ====== Bootstrap tags ====== */
 .navbar {
@@ -104,7 +162,8 @@ h4 {
   border-color: transparent;
 }
 .btn-primary:focus,
-.btn-secondary:focus {
+.btn-secondary:focus,
+.btn-dark:focus {
   box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);
 }
 .btn-primary {
@@ -114,5 +173,41 @@ h4 {
   font-weight: 600;
   /*box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);*/
   border-bottom: solid 3px rgba(0, 0, 0, 0.4);
+}
+.btn-dark {
+  color: #fff;
+  background-color: black;
+  border: none;
+  width: 87px;
+  height: 41px;
+  margin: 0 5px;
+  padding: 10px;
+}
+.btn-dark:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.btn-info,
+.btn-info-contact {
+  background-color: #17c2a4;
+  border: none;
+  padding: 26px 80px;
+  font-weight: 600;
+  /*box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);*/
+  border-bottom: solid 3px #13a78d;
+}
+.btn-info-contact {
+  background-color: #30bae7;
+  color: #fff;
+  margin: 0 auto;
+}
+.btn-success {
+  background-color: transparent;
+  border: none;
+  font-weight: 700;
+}
+.form-group {
+  margin-bottom: 3rem;
 }
 /* ====== Media Queries ====== */
