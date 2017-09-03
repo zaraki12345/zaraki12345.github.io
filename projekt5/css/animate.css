@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-
+/* COUNTER ANIMATION */
 .counter{
-  top: 125px;
-  left: 76px;
-  position: relative;
+  top: 92px;
+  left: 96px;
+  position: absolute;
 }
 .counter span {
   float:left;
@@ -44,6 +44,64 @@
   to { background-position:0 -270px; }
 }
 
+.counter .digit-8 {
+  background-position:0 -240px;
+
+  animation-name: digitSpin8;
+  animation-duration: 3.4s;
+  animation-iteration-count: 1;
+
+  -webkit-animation-name: digitSpin8;
+  -webkit-animation-duration: 3.4s;
+  -webkit-animation-iteration-count: 1;
+
+  -moz-animation-name: digitSpin8;
+  -moz-animation-duration: 3.4s;
+  -moz-animation-iteration-count: 1;
+}
+
+@keyframes digitSpin8 {
+  from { background-position:0 0; }
+  to { background-position:0 -240px; }
+}
+@-webkit-keyframes digitSpin8 {
+  from { background-position:0 0; }
+  to { background-position:0 -240px; }
+}
+@-moz-keyframes digitSpin8 {
+  from { background-position:0 0; }
+  to { background-position:0 -240px; }
+}
+
+.counter .digit-7 {
+   background-position:0 -210px;
+
+   animation-name: digitSpin7;
+   animation-duration: 3.4s;
+   animation-iteration-count: 1;
+
+   -webkit-animation-name: digitSpin7;
+   -webkit-animation-duration: 3.4s;
+   -webkit-animation-iteration-count: 1;
+
+   -moz-animation-name: digitSpin7;
+   -moz-animation-duration: 3.4s;
+   -moz-animation-iteration-count: 1;
+ }
+
+@keyframes digitSpin7 {
+  from { background-position:0 0; }
+  to { background-position:0 -210px; }
+}
+@-webkit-keyframes digitSpin7 {
+  from { background-position:0 0; }
+  to { background-position:0 -210px; }
+}
+@-moz-keyframes digitSpin7 {
+  from { background-position:0 0; }
+  to { background-position:0 -210px; }
+}
+
 .counter .digit-0 {
   background-position:0 -300px;
 
@@ -71,6 +129,35 @@
 @-moz-keyframes digitSpin0 {
   from { background-position:0 0; }
   to { background-position:0 -300px; }
+}
+
+.counter .digit-5 {
+  background-position:0 -150px;
+
+  animation-name: digitSpin5;
+  animation-duration: 3.4s;
+  animation-iteration-count: 1;
+
+  -webkit-animation-name: digitSpin5;
+  -webkit-animation-duration: 3.4s;
+  -webkit-animation-iteration-count: 1;
+
+  -moz-animation-name: digitSpin5;
+  -moz-animation-duration: 3.4s;
+  -moz-animation-iteration-count: 1;
+}
+
+@keyframes digitSpin5 {
+  from { background-position:0 0; }
+  to { background-position:0 -150px; }
+}
+@-webkit-keyframes digitSpin5 {
+  from { background-position:0 0; }
+  to { background-position:0 -150px; }
+}
+@-moz-keyframes digitSpin5 {
+  from { background-position:0 0; }
+  to { background-position:0 -150px; }
 }
 
 .counter .digit-p {
@@ -103,122 +190,45 @@
 }
 
 
+/*SVG'S ANIMATION*/
 
-.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
-}
 
-.animated.infinite {
-  animation-iteration-count: infinite;
-}
-
-.download{
-  animation-name: download;
-}
-@keyframes download{
-  0% {
-    top:0px;
-    position: relative;
+@keyframes dash {
+  from {
+    stroke-dashoffset: 213;
   }
-  50%{
-     top:-10px;
-     position: relative;
+  to {
+    stroke-dashoffset: 21;
+  }
+}
+@keyframes dash2 {
+   from {
+     stroke-dashoffset: 213;
    }
-  100%{
-    top:0px;
-    position: relative;
+   to {
+     stroke-dashoffset: 53;
+   }
+ }
+@keyframes dash3 {
+  from {
+    stroke-dashoffset: 213;
+  }
+  to {
+    stroke-dashoffset: 64.5;
   }
 }
-.moresize{
-  animation-name: moresize;
-}
-@keyframes moresize{
-  0% {
-    font-size: 3em;
+@keyframes dash4 {
+  from {
+    stroke-dashoffset: 213;
   }
-  50%{
-    font-size: 4em;
-  }
-  100%{
-    font-size: 3em;
-  }
-}
-
-.changecolor{
-  animation-name: changecolor;
-}
-@keyframes changecolor{
-  0% {
-    color: #fff;
-  }
-  50%{
-    color:black;
-  }
-  100%{
-    color: #fff;
+  to {
+    stroke-dashoffset: 31.6;
   }
 }
 
-.changeimg{
-  animation-name: changeimg;
-}
-@keyframes changeimg{
-  0% {
 
-  }
-  100%{
-    background: url("../img/folder.png");
-    width: 51px;
-    height: 48px;
-    left:2px;
-    position: relative;
-  }
-}
 
-.flipX{
-  animation-name:flipX;
-}
 
-@keyframes flipX {
-  0% {
-    -moz-transform: scaleX(-1);
-    -o-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  100%{
-    -moz-transform: scaleX(1);
-    -o-transform: scaleX(1);
-    -webkit-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-}
-.flipY{
-  animation-name:flipY;
-}
-
-@keyframes flipY {
-  0% {
-    -moz-transform: scaleY(-1);
-    -o-transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-    transform: scaleY(-1);
-  }
-  100%{
-    -moz-transform: scaleY(1);
-    -o-transform: scaleY(1);
-    -webkit-transform: scaleY(1);
-    transform: scaleY(1);
-  }
-}
-
-.animated.flipOutX,
-.animated.flipOutY,
-.animated.bounceIn,
-.animated.bounceOut {
-  animation-duration: .75s;
-}
 
 
 
