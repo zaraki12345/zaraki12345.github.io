@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+/*SVG'S ANIMATION*/
+
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 312;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes dash2 {
+   from {
+     stroke-dashoffset: 223;
+   }
+   to {
+     stroke-dashoffset: 0;
+   }
+ }
+@keyframes dash3 {
+  from {
+    stroke-dashoffset: 394;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
