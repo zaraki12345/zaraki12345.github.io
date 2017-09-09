@@ -1,5 +1,14 @@
 /* ====== Import styles ====== */
 @import "animate.css";
+@font-face {
+  font-family: Blacksword;
+  src: url('Blacksword.otf');
+}
+@font-face {
+  font-family: Blacksword;
+  font-weight: bold;
+  src: url('Blacksword.otf');
+}
 /* ====== Variables ====== */
 /* ====== Mixins ====== */
 /* ====== Base tags ====== */
@@ -41,13 +50,13 @@ img.grayimg:hover {
   box-shadow: 0 4px 2px -2px gray;
 }
 .btn-secondary {
-  background-color: #26a9e0;
+  background-color: transparent;
   border: none;
-  color: #FFF !important;
+  color: #000 !important;
   text-transform: uppercase;
 }
 .btn-secondary:hover {
-  background-color: #1CE1E8;
+  background-color: #EA9A27;
   border-color: transparent;
 }
 .btn-secondary:focus {
@@ -90,57 +99,35 @@ img.grayimg:hover {
   }
 }
 /* ===== SVG =====*/
-.Technodent {
-  stroke-dasharray: 320;
-  stroke-dashoffset: 320;
-  stroke-width: 0.5px;
-  animation: dash 4.5s linear forwards, fill-it 0.5s 4.5s forwards;
-  text-transform: uppercase;
-}
-.dent {
-  stroke-dasharray: 320;
-  stroke-dashoffset: 320;
-  stroke-width: 0.5px;
-  animation: dash 4.5s linear forwards, fill-it2 0.5s 4.5s forwards;
-  text-transform: uppercase;
-}
-.Sprzet {
-  stroke-dasharray: 250;
-  stroke-dashoffset: 250;
+.Anna-text {
+  stroke-dasharray: 880;
+  stroke-dashoffset: 880;
   stroke-width: 1px;
-  animation: dash2 2.5s linear forwards;
-  animation-delay: 1s;
+  animation: dash 1.5s linear forwards, fill-it 0.5s 1.5s forwards;
 }
-.Medyczny {
-  stroke-dasharray: 394;
-  stroke-dashoffset: 394;
+.Luiza-text {
+  stroke-dasharray: 900;
+  stroke-dashoffset: 900;
   stroke-width: 1px;
-  animation: dash3 2s linear forwards;
-  animation-delay: 2s;
+  animation: dash 2.5s linear forwards 1s, fill-it 0.5s 2.5s forwards;
 }
-.Sprzet,
-.Medyczny {
+.Stec-text {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  stroke-width: 1px;
+  animation: dash 3.5s linear forwards 1.5s, fill-it 0.5s 3.5s forwards;
+}
+.Anna-text,
+.Luiza-text,
+.Stec-text {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  font-family: 'Arima Madurai', cursive !important;
+  font-family: 'Blacksword', cursive !important;
   text-anchor: middle;
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 70px;
+  font-size: 140px;
   line-height: normal;
-  opacity: 0.5;
-}
-.Technodent,
-.dent {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  text-anchor: middle;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  font-stretch: normal;
-  font-size: 70px;
-  line-height: normal;
-  font-family: 'Titillium Web', sans-serif;
-  opacity: 0.5;
+  /*  opacity: 0.5;*/
 }
