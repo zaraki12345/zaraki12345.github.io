@@ -13,7 +13,7 @@
 /* ====== Mixins ====== */
 /* ====== Base tags ====== */
 body {
-  padding-top: 90px;
+  /*  padding-top: 90px;*/
   height: 1500px;
   font-family: 'Titillium Web', sans-serif;
 }
@@ -23,6 +23,13 @@ body {
 }
 .main-header {
   position: relative;
+  background: url("../img/background.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-position: center;
 }
 .more-button {
   position: absolute;
@@ -33,7 +40,7 @@ body {
 }
 .more-button .fa-angle-down {
   color: #000;
-  font-size: 140px;
+  font-size: 120px;
 }
 .footer {
   padding: 20px 0px;
@@ -42,6 +49,7 @@ body {
 .navbar {
   padding: 0px 30px;
   box-shadow: 0 4px 2px -2px gray;
+  background-color: rgba(255, 255, 255, 0.59);
 }
 .btn-secondary {
   background-color: transparent;
@@ -94,64 +102,64 @@ body {
 }
 /* ===== SVG =====*/
 .Anna-text {
-  stroke-dasharray: 1250;
-  stroke-dashoffset: 1250;
-  stroke-width: 1px;
-  animation: dash 1.5s linear forwards, fill-it 0.5s linear 1.5s forwards;
+  stroke-dasharray: 320;
+  stroke-dashoffset: 320;
+  stroke-width: .1px;
+  animation: dash 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it 0.1s linear 1.5s forwards;
 }
 .Anna-n1 {
-  stroke-dasharray: 750;
-  stroke-dashoffset: 750;
-  stroke-width: 1px;
-  animation: dash-small 0.3s linear 1.5s forwards, fill-it 0.1s linear 1.8s forwards;
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  stroke-width: .1px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it 0.1s linear 2.4s forwards;
 }
 .Anna-n2 {
-  stroke-dasharray: 750;
-  stroke-dashoffset: 750;
-  stroke-width: 1px;
-  animation: dash-small 0.3s linear 1.8s forwards, fill-it 0.1s linear 2.1s forwards;
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  stroke-width: .1px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it 0.1s linear 2.6s forwards;
 }
 .Anna-a2 {
-  stroke-dasharray: 750;
-  stroke-dashoffset: 750;
-  stroke-width: 1px;
-  animation: dash-small 0.3s linear 2.1s forwards, fill-it 0.1s linear 2.4s forwards;
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  stroke-width: .1px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it 0.1s linear 2.8s forwards;
 }
 .Luiza-text {
-  stroke-dasharray: 1250;
-  stroke-dashoffset: 1250;
-  stroke-width: 1px;
-  animation: dash 1.5s linear 2.4s forwards, fill-it 0.5s linear 3.9s forwards;
+  stroke-dasharray: 99;
+  stroke-dashoffset: 99;
+  stroke-width: .1px;
+  animation: dash-l 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it 0.1s linear 1.5s forwards;
 }
 .Luiza-u {
-  stroke-dasharray: 750;
-  stroke-dashoffset: 750;
-  stroke-width: 1px;
-  animation: dash-small 0.3s linear forwards 3.9s, fill-it 0.1s linear 4.2s forwards;
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  stroke-width: .1px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it 0.1s linear 2.4s forwards;
 }
 .Luiza-i {
-  stroke-dasharray: 880;
-  stroke-dashoffset: 880;
-  stroke-width: 1px;
-  animation: dash-iz 0.3s linear forwards 4.2s, fill-it 0.1s linear 4.5s forwards;
+  stroke-dasharray: 170;
+  stroke-dashoffset: 170;
+  stroke-width: .1px;
+  animation: dash-iz 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it 0.1s linear 2.6s forwards;
 }
 .Luiza-z {
-  stroke-dasharray: 750;
-  stroke-dashoffset: 750;
-  stroke-width: 1px;
-  animation: dash-small 0.3s linear forwards 4.5s, fill-it 0.1s linear 4.8s forwards;
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  stroke-width: .1px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it 0.1s linear 2.8s forwards;
 }
 .Luiza-a {
-  stroke-dasharray: 750;
-  stroke-dashoffset: 750;
-  stroke-width: 1px;
-  animation: dash-small 0.3s linear forwards 4.8s, fill-it 0.1s linear 5.1s forwards;
+  stroke-dasharray: 131;
+  stroke-dashoffset: 131;
+  stroke-width: .1px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.4s forwards, fill-it 0.1s linear 3s forwards;
 }
 .Stec-text {
-  stroke-dasharray: 1410;
-  stroke-dashoffset: 1410;
-  stroke-width: 1px;
-  animation: dash-stec 1.5s linear forwards 5.1s, fill-it 0.5s 6.6s forwards;
+  stroke-dasharray: 113;
+  stroke-dashoffset: 113;
+  stroke-width: .1px;
+  animation: dash-stec 1.5s cubic-bezier(0.47, 0, 0.75, 0.72) forwards 3s, fill-it 0.1s 4s forwards;
 }
 .Anna-text,
 .Luiza-text,
@@ -163,7 +171,9 @@ body {
   font-variant: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 200px;
+  font-size: 16px;
   line-height: normal;
-  /*  opacity: 0.5;*/
+  width: 100%;
+  vertical-align: top;
+  max-height: 10rem;
 }
