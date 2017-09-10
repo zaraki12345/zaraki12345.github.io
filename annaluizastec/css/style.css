@@ -20,7 +20,7 @@ body {
 /* ====== Layout tags ====== */
 .main-header {
   position: relative;
-  background: url("../img/background.jpg") center no-repeat;
+  background: url("../img/background1.jpg") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
@@ -154,13 +154,13 @@ body {
   font-variant: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 16px;
+  font-size: 13px;
   line-height: normal;
   width: 100%;
   vertical-align: top;
   max-height: 10rem;
   z-index: 2;
-  stroke: #b87e50;
+  stroke: rgba(146, 0, 0, 0.84);
 }
 /*	#FFD700*/
 /*b87e50*/
