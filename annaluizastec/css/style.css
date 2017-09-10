@@ -18,32 +18,14 @@ body {
   font-family: 'Titillium Web', sans-serif;
 }
 /* ====== Layout tags ====== */
-.main-footer {
-  background-color: #344b8e;
-}
 .main-header {
   position: relative;
-  background: url("../img/background.jpg") no-repeat;
+  background: url("../img/background.jpg") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-position: center;
-}
-.more-button {
-  position: absolute;
-  bottom: -200px;
-  margin: 0 auto;
-  transform: translateX(-50%) translateY(-50%);
-  left: 50%;
-}
-.more-button .fa-angle-down {
-  color: #000;
-  font-size: 120px;
-}
-.footer {
-  padding: 20px 0px;
 }
 /* ====== Bootstrap tags ====== */
 .navbar {
@@ -64,13 +46,14 @@ body {
 .btn-secondary:focus {
   box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);
 }
-.row [class*="col-"] {
+/*.row [class*="col-"]{
   margin-bottom: -99999px;
   padding-bottom: 99999px;
 }
-.row {
+
+.row{
   overflow: hidden;
-}
+}*/
 /* ====== Media Queries ====== */
 @media screen and (min-width: 768px) {
   .container {
