@@ -159,4 +159,6 @@ body {
   width: 100%;
   vertical-align: top;
   max-height: 10rem;
+  z-index: 2;
+  stroke: #b87e50;
 }
