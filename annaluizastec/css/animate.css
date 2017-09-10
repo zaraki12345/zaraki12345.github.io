@@ -3,36 +3,50 @@
 /*SVG'S ANIMATION*/
 
 
-/*@keyframes dash {
+@keyframes dash {
   from {
-    stroke-dashoffset: 880;
+    stroke-dashoffset: 1250;
   }
   to {
     stroke-dashoffset: 0;
   }
 }
-@keyframes dash2 {
+@keyframes dash-small {
    from {
-     stroke-dashoffset: 900;
+     stroke-dashoffset: 750;
    }
    to {
      stroke-dashoffset: 0;
    }
  }
-@keyframes dash3 {
-  from {
-    stroke-dashoffset: 1000;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
+@keyframes dash-iz {
+    from {
+        stroke-dashoffset: 880;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
 }
+@keyframes dash-stec {
+    from {
+        stroke-dashoffset: 1410;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+
+
+
+
 
 @keyframes fill-it{
     100%{
         fill: #000;
     }
-}*/
+}
 /*@keyframes fill-it2{
     100%{
         fill: #000;
