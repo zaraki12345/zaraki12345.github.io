@@ -14,35 +14,29 @@
 /* ====== Base tags ====== */
 body {
   padding-top: 90px;
+  height: 1500px;
   font-family: 'Titillium Web', sans-serif;
 }
 /* ====== Layout tags ====== */
 .main-footer {
   background-color: #344b8e;
 }
+.main-header {
+  position: relative;
+}
+.more-button {
+  position: absolute;
+  bottom: -200px;
+  margin: 0 auto;
+  transform: translateX(-50%) translateY(-50%);
+  left: 50%;
+}
+.more-button .fa-angle-down {
+  color: #000;
+  font-size: 140px;
+}
 .footer {
   padding: 20px 0px;
-}
-.fa {
-  background-color: #bdd1df;
-  border-radius: 50%;
-  width: 25px;
-  height: 25px;
-  padding-top: 4px;
-  color: #fff;
-  margin-bottom: 100px;
-}
-img.grayimg {
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.5s ease-out;
-}
-img.grayimg:hover {
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
-  box-shadow: 0 4px 2px -2px #1CE1E8;
 }
 /* ====== Bootstrap tags ====== */
 .navbar {
@@ -79,8 +73,8 @@ img.grayimg:hover {
     /* Hidden by default */
     position: fixed;
     /* Fixed/sticky position */
-    bottom: 20px;
-    right: 30px;
+    bottom: 100px;
+    right: 50px;
     z-index: 99;
     border: none;
     outline: none;
