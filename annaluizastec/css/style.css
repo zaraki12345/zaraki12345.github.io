@@ -46,7 +46,7 @@ img.grayimg:hover {
 }
 /* ====== Bootstrap tags ====== */
 .navbar {
-  padding: 10px 30px;
+  padding: 0px 30px;
   box-shadow: 0 4px 2px -2px gray;
 }
 .btn-secondary {
@@ -100,20 +100,20 @@ img.grayimg:hover {
 }
 /* ===== SVG =====*/
 .Anna-text {
-  stroke-dasharray: 880;
-  stroke-dashoffset: 880;
+  /*  stroke-dasharray: 880;
+  stroke-dashoffset: 880;*/
   stroke-width: 1px;
   animation: dash 1.5s linear forwards, fill-it 0.5s 1.5s forwards;
 }
 .Luiza-text {
-  stroke-dasharray: 900;
-  stroke-dashoffset: 900;
+  /*  stroke-dasharray: 900;
+  stroke-dashoffset: 900;*/
   stroke-width: 1px;
   animation: dash 2.5s linear forwards 1s, fill-it 0.5s 2.5s forwards;
 }
 .Stec-text {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
+  /*  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;*/
   stroke-width: 1px;
   animation: dash 3.5s linear forwards 1.5s, fill-it 0.5s 3.5s forwards;
 }
@@ -127,7 +127,7 @@ img.grayimg:hover {
   font-variant: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 140px;
+  font-size: 170px;
   line-height: normal;
   /*  opacity: 0.5;*/
 }

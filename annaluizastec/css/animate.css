@@ -3,7 +3,7 @@
 /*SVG'S ANIMATION*/
 
 
-@keyframes dash {
+/*@keyframes dash {
   from {
     stroke-dashoffset: 880;
   }
@@ -32,7 +32,7 @@
     100%{
         fill: #000;
     }
-}
+}*/
 /*@keyframes fill-it2{
     100%{
         fill: #000;
