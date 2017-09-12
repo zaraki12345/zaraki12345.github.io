@@ -20,7 +20,7 @@ body {
 /* ====== Layout tags ====== */
 .main-header {
   position: relative;
-  background: url("../img/background1.jpg") center no-repeat;
+  background: url("../img/background.jpg") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
