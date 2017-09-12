@@ -16,7 +16,7 @@ function topFunction() {
 }
 
 
-(function ($) {
+/*(function ($) {
     $(document).ready(function(){
 
         // hide .navbar first
@@ -37,4 +37,4 @@ function topFunction() {
         });
 
     });
-}(jQuery));
+}(jQuery));*/
