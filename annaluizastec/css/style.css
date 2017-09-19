@@ -25,17 +25,39 @@ body {
   margin: 0;
   overflow: hidden;
 }
-.navbar-brand {
-  font-family: 'Blacksword', cursive;
-  color: #fff !important;
-  font-size: 55px;
-  padding: 10px 30px;
-}
 .fixed {
   position: fixed !important;
   top: 0;
-  height: 85px;
+  height: 90px;
   z-index: 1;
+}
+.oferta ul {
+  padding-left: 0;
+}
+.oferta ul li {
+  list-style: none;
+}
+.background-design {
+  background: url(../img/background1.jpg) no-repeat center fixed;
+  height: 200px;
+}
+.background-design2 {
+  background: url(../img/background3.jpg) no-repeat center fixed;
+  height: 200px;
+}
+.start,
+.o-mnie,
+.projekt {
+  background-color: black;
+  color: #bda087;
+}
+.oferta,
+.o-mnie {
+  padding-bottom: 30px;
+}
+.meimg {
+  float: left;
+  padding-right: 28px;
 }
 /* ====== Bootstrap tags ====== */
 .navbar {
@@ -47,6 +69,13 @@ body {
   width: 100%;
   position: absolute;
 }
+.navbar-brand {
+  font-family: 'Blacksword', cursive;
+  color: #fff !important;
+  font-size: 55px;
+  padding: 10px 30px;
+  max-width: 500px;
+}
 .btn-secondary {
   background-color: transparent;
   border: none;
@@ -54,21 +83,21 @@ body {
   text-transform: uppercase;
 }
 .btn-secondary:hover {
-  background-color: #EA9A27;
+  background-color: #570204;
   border-color: transparent;
 }
 .btn-secondary:focus {
   box-shadow: inset 0 -10px 13px -10px rgba(0, 0, 0, 0.72);
 }
-/*.row [class*="col-"]{
-  margin-bottom: -99999px;
-  padding-bottom: 99999px;
+.fa-bars {
+  color: #fff;
 }
-
-.row{
-  overflow: hidden;
-}*/
 /* ====== Media Queries ====== */
+@media screen and (min-width: 300px) and (max-width: 590px) {
+  .navbar-brand {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .container {
     max-width: 1100px;
@@ -96,67 +125,88 @@ body {
   #myBtn:hover {
     background-color: #555;
   }
+  h2 {
+    padding: 40px 0px;
+  }
 }
 /* ===== SVG =====*/
 .Anna-text {
   stroke-dasharray: 340;
   stroke-dashoffset: 340;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it 0.1s linear 1.5s forwards;
 }
 .Anna-n1 {
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it 0.1s linear 2.4s forwards;
 }
 .Anna-n2 {
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it 0.1s linear 2.6s forwards;
 }
 .Anna-a2 {
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it 0.1s linear 2.8s forwards;
 }
 .Luiza-text {
   stroke-dasharray: 350;
   stroke-dashoffset: 350;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-l 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it 0.1s linear 1.5s forwards;
 }
 .Luiza-u {
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it 0.1s linear 2.4s forwards;
 }
 .Luiza-i {
   stroke-dasharray: 250;
   stroke-dashoffset: 250;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-iz 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it 0.1s linear 2.6s forwards;
 }
 .Luiza-z {
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it 0.1s linear 2.8s forwards;
 }
 .Luiza-a {
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
-  stroke-width: 1px;
+  stroke-width: 0.5px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.4s forwards, fill-it 0.1s linear 3s forwards;
 }
 .Stec-text {
   stroke-dasharray: 390;
   stroke-dashoffset: 390;
-  stroke-width: 1px;
-  animation: dash-stec 1.5s cubic-bezier(0.47, 0, 0.75, 0.72) forwards 3s, fill-it 0.1s 4s forwards;
+  stroke-width: 0.5px;
+  animation: dash-s 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it 0.1s linear 1.5s forwards;
+}
+.Stec-t {
+  stroke-dasharray: 222;
+  stroke-dashoffset: 222;
+  stroke-width: 0.5px;
+  animation: dash-t 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it 0.1s linear 2.4s forwards;
+}
+.Stec-e {
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 0.5px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it 0.1s linear 2.6s forwards;
+}
+.Stec-c {
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 0.5px;
+  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it 0.1s linear 2.8s forwards;
 }
 .Anna-text,
 .Luiza-text,
@@ -174,7 +224,7 @@ body {
   vertical-align: top;
   max-height: 10rem;
   z-index: 2;
-  stroke: gold;
+  stroke: white;
 }
 /*	#FFD700*/
 /*b87e50*/
