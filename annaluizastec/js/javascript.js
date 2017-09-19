@@ -16,25 +16,17 @@ function topFunction() {
 }
 
 
-/*(function ($) {
-    $(document).ready(function(){
-
-        // hide .navbar first
-        $(".navbar").hide();
-
-        // fade in .navbar
-        $(function () {
-            $(window).scroll(function () {
-                // set distance user needs to scroll before we fadeIn navbar
-                if ($(this).scrollTop() > 100) {
-                    $('.navbar').fadeIn();
-                } else {
-                    $('.navbar').fadeOut();
-                }
-            });
-
-
-        });
-
+$(document).ready(function(){
+    $(window).bind('scroll', function() {
+        var navHeight = $( window ).height() - 70;
+        if ($(window).scrollTop() > navHeight) {
+            $('nav').addClass('fixed');
+        }
+        else {
+            $('nav').removeClass('fixed');
+        }
     });
-}(jQuery));*/
+});
+
+
+

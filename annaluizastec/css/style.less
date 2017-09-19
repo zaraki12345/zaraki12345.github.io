@@ -11,8 +11,6 @@
 
 /* ====== Base tags ====== */
 body{
-/*  padding-top: 90px;*/
-  height: 1400px;
   font-family: 'Titillium Web', sans-serif;
 }
 /* ====== Layout tags ====== */
@@ -30,14 +28,26 @@ body{
   font-family: 'Blacksword', cursive;
   color: #fff !important;
   font-size: 55px;
+  padding: 10px 30px;
 }
+.fixed {
+  position: fixed !important;
+  top: 0;
+  height: 85px;
+  z-index: 1;
+}
+
 
 
 /* ====== Bootstrap tags ====== */
 .navbar{
   padding: 0px 30px;
 /*  box-shadow: 0 4px 2px -2px gray;*/
-  background-color: rgba(0, 0, 0, 0.19);
+  background-color: rgba(0,0,0,0.19);
+  bottom: 0;
+  right:0;
+  width: 100%;
+  position: absolute;
 }
 .btn-secondary{
   background-color: transparent;
@@ -76,7 +86,7 @@ body{
     z-index: 99;
     border: none;
     outline: none; /* Remove outline */
-    background-color: #87509c;
+    background-color: #000;
     color: white;
     cursor: pointer;
     padding: 4px;
@@ -94,28 +104,28 @@ body{
 /* ===== SVG =====*/
 
 .Anna-text{
-  stroke-dasharray: 320;
-  stroke-dashoffset: 320;
-  stroke-width: .1px;
+  stroke-dasharray: 340;
+  stroke-dashoffset: 340;
+  stroke-width: 1px;
   animation: dash 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it .1s linear 1.5s forwards;
   //stroke-opacity: 0.3;
 }
 .Anna-n1{
-  stroke-dasharray: 131;
-  stroke-dashoffset: 131;
-  stroke-width: .1px;
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 1px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it .1s linear 2.4s forwards;
 }
 .Anna-n2{
-  stroke-dasharray: 131;
-  stroke-dashoffset: 131;
-  stroke-width: .1px;
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 1px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it .1s linear 2.6s forwards;
 }
 .Anna-a2{
-  stroke-dasharray: 131;
-  stroke-dashoffset: 131;
-  stroke-width: .1px;
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 1px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it .1s linear 2.8s forwards;
 }
 
@@ -124,54 +134,54 @@ body{
 
 
 .Luiza-text{
-  stroke-dasharray: 99;
-  stroke-dashoffset: 99;
-  stroke-width: .1px;
+  stroke-dasharray: 350;
+  stroke-dashoffset: 350;
+  stroke-width: 1px;
   animation: dash-l 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it .1s linear 1.5s forwards;
 
   //stroke-opacity: 0.3;
 }
 
 .Luiza-u{
-  stroke-dasharray: 131;
-  stroke-dashoffset: 131;
-  stroke-width: .1px;
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 1px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it .1s linear 2.4s forwards;
 
   //stroke-opacity: 0.3;
 }
 
 .Luiza-i{
-  stroke-dasharray: 170;
-  stroke-dashoffset: 170;
-  stroke-width: .1px;
+  stroke-dasharray: 250;
+  stroke-dashoffset: 250;
+  stroke-width: 1px;
   animation: dash-iz 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it .1s linear 2.6s forwards;
 
   //stroke-opacity: 0.3;
 }
 
 .Luiza-z{
-  stroke-dasharray: 131;
-  stroke-dashoffset: 131;
-  stroke-width: .1px;
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 1px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it .1s linear 2.8s forwards;
 
   //stroke-opacity: 0.3;
 }
 
 .Luiza-a{
-  stroke-dasharray: 131;
-  stroke-dashoffset: 131;
-  stroke-width: .1px;
+  stroke-dasharray: 194;
+  stroke-dashoffset: 194;
+  stroke-width: 1px;
   animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.4s forwards, fill-it .1s linear 3s forwards;
 
   //stroke-opacity: 0.3;
 }
 
 .Stec-text {
-  stroke-dasharray: 113;
-  stroke-dashoffset: 113;
-  stroke-width: .1px;
+  stroke-dasharray: 390;
+  stroke-dashoffset: 390;
+  stroke-width: 1px;
   animation: dash-stec 1.5s cubic-bezier(0.47, 0, 0.75, 0.72) forwards 3s, fill-it .1s 4s forwards;
   //stroke-opacity: 0.3;
 }
@@ -187,13 +197,13 @@ body{
   font-variant: normal;
   font-weight: normal;
   font-stretch: normal;
-  font-size: 13px;
+  font-size: 55px;
   line-height: normal;
   width: 100%;
   vertical-align: top;
   max-height: 10rem;
   z-index: 2;
-  stroke: rgb(218,165,32);
+  stroke: gold;
 }
 /*	#FFD700*/
 /*b87e50*/
