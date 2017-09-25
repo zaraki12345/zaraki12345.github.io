@@ -15,7 +15,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
 
-
+/* NAVBAR SHOW UP */
 $(document).ready(function(){
     $(window).bind('scroll', function() {
         var navHeight = $( window ).height() - 70;
@@ -25,6 +25,14 @@ $(document).ready(function(){
         else {
             $('nav').removeClass('fixed');
         }
+    });
+});
+
+/* MASONRY */
+var $grid = $('.grid').imagesLoaded( function() {
+    // init Masonry after all images have loaded
+    $grid.masonry({
+        // options...
     });
 });
 

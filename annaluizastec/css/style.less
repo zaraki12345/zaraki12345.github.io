@@ -129,7 +129,7 @@ body{
   }
 
   #myBtn:hover {
-    background-color: #555;
+    background-color: rgb(87, 2, 4);
   }
   h2{
     padding: 40px 0px;
@@ -261,5 +261,32 @@ body{
   z-index: 2;
   stroke: white;
 }
-/*	#FFD700*/
-/*b87e50*/
+/* MASONRY STYLES*/
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+  height: 33.333%;
+}
+
+.grid-item {
+  float: left;
+  padding: 5px;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item:hover {
+  background: rgb(189, 160, 135);
+  cursor: pointer;
+}
+
+
