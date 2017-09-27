@@ -54,6 +54,7 @@ body {
 .oferta,
 .o-mnie {
   padding-bottom: 30px;
+  min-height: 450px;
 }
 .meimg {
   float: left;
@@ -229,12 +230,14 @@ body {
 /* MASONRY STYLES*/
 .grid-sizer,
 .grid-item {
-  width: 33.333%;
-  height: 33.333%;
+  width: 33%;
 }
 .grid-item {
   float: left;
   padding: 5px;
+}
+.grid-item--width2 {
+  width: 20%;
 }
 .grid-item img {
   display: block;

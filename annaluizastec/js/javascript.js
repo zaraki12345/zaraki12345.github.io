@@ -29,12 +29,20 @@ $(document).ready(function(){
 });
 
 /* MASONRY */
+// init Masonry after all images have loaded
 var $grid = $('.grid').imagesLoaded( function() {
-    // init Masonry after all images have loaded
     $grid.masonry({
-        // options...
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        columnWidth: '.grid-sizer'
     });
 });
-
+$('.grid').isotope({
+    itemSelector: '.grid-item',
+    percentPosition: true,
+    masonry: {
+        columnWidth: '.grid-sizer'
+    }
+});
 
 
