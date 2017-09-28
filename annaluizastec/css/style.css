@@ -262,7 +262,8 @@ body {
   padding: 5px;
 }
 .photo.medium,
-.photo.high {
+.photo.high,
+.photo.medium2 {
   width: 33%;
 }
 .photo.large,
@@ -298,9 +299,12 @@ body {
   min-width: 100%;
   width: 100%;
 }
-.photo.landscape .photo_shell,
 .photo.medium .photo_shell {
   height: 217px;
+}
+.photo.medium2 .photo_shell,
+.photo.landscape .photo_shell {
+  height: 450px;
 }
 .photo.high .photo_shell {
   height: 442px;
