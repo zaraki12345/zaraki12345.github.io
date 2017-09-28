@@ -64,12 +64,31 @@
         fill: rgba(255, 255, 255,1);
     }
 }
-/*@keyframes fill-it2{
-    100%{
-        fill: #000;
+@keyframes changecolor{
+    0%, 100% {
+        color: rgb(169, 144, 122);
     }
-}*/
+    50% {
+        color: #3f342c;
+    }
+}
 
+@keyframes changecolor_font{
+    0% {
+        color: black;
+    }
+    100% {
+        color: rgb(169, 144, 122);
+    }
+}
+@keyframes change_opacity_img{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.9;
+    }
+}
 
 
 
