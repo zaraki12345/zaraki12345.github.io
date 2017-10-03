@@ -14,6 +14,10 @@ body{
   font-family: 'Titillium Web', sans-serif;
   position: relative;
 }
+h6{
+  margin-bottom: 0;
+  text-align: center;
+}
 /* ====== Layout tags ====== */
 
 .main-header{
@@ -36,19 +40,24 @@ body{
 }
 .background-design{
   background: url(../img/background1.jpg) no-repeat center fixed;
+  background-size:cover;
   height: 200px;
 }
 .background-design2{
   background: url(../img/background3.jpg) no-repeat center fixed;
+  background-size:cover;
   height: 200px;
 }
 .background-design3{
   background: url(../img/background2.jpg) no-repeat center fixed;
+  background-size:cover;
   height: 200px;
 }
 .start,
 .o-mnie,
-.projekt{
+.projekt,
+.kontakt,
+.author{
   background-color: black;
   color: rgb(189, 160, 135);
 }
@@ -58,12 +67,12 @@ body{
   min-height: 450px;
 }
 
-.meimg{
-  float: left;
-  padding-right: 28px;
-  opacity: 0.9;
-  animation: 5s change_opacity_img ease-in;
+.author{
+  min-height: 100px;
+  padding-top: 70px;
 }
+
+
 
 
 /* ====== Bootstrap tags ====== */
@@ -75,13 +84,19 @@ body{
   padding: 10px 30px;
   max-width: 500px;
 }
+.btn-primary{
+  &:extend(.btn-secondary);
+  color: rgb(189, 160, 135) !important;
+  text-transform: none !important;
+}
 .btn-secondary{
   background-color: transparent;
   border:none;
-  color: #fff !important;
+  color: rgb(189, 160, 135) !important;
   text-transform: uppercase;
 }
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-primary:hover{
   background-color: rgb(87, 2, 4);
   border-color: transparent;
 }
@@ -109,7 +124,48 @@ body{
 
 /* ====== Media Queries ====== */
 
+@media screen and (min-width: 300px) and (max-width: 412px)
+{
+  .meimg{
+    float: left;
+    opacity: 0.9;
+    width: 100%;
+    animation: 5s change_opacity_img ease-in;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 413px) and (max-width: 767px){
+  .meimg{
+    float: left;
+    padding-right: 28px;
+    opacity: 0.9;
+    animation: 5s change_opacity_img ease-in;
+  }
+}
+
 @media screen and (min-width:300px) and (max-width: 767px) {
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none; /* Remove outline */
+    background-color: rgb(87, 2, 4);
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 38px;
+    height: 39px;
+  }
+
+  #myBtn:hover {
+    background-color: rgb(87, 2, 4);
+  }
   .navbar-brand {
     display: none;
   }
@@ -122,6 +178,24 @@ body{
   .navbar{
     top: 0 !important;
     z-index: 1;
+    background: rgba(0, 0, 0, 0.62);
+  }
+  .photo.medium,
+  .photo.high,
+  .photo.medium2,
+  .photo.large,
+  .photo.landscape{
+    width: 100% !important;
+  }
+  .photo.large,
+  .photo.medium.second{
+    margin-top: 0 !important;
+  }
+  h2{
+    padding: 40px 0px;
+  }
+  .title_start{
+    padding-top: 85px;
   }
 }
 
@@ -143,6 +217,19 @@ body{
     line-height: 1.8;
     letter-spacing: 1px;
   }
+
+  h2{
+    padding: 40px 0px;
+  }
+  .title_start{
+    padding-top: 85px;
+  }
+  .fixed {
+    position: fixed !important;
+    top: 0;
+    height: 90px;
+    z-index: 1;
+  }
   #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -151,7 +238,7 @@ body{
     z-index: 99;
     border: none;
     outline: none; /* Remove outline */
-    background-color: #000;
+    background-color: rgb(87, 2, 4);
     color: white;
     cursor: pointer;
     padding: 4px;
@@ -164,17 +251,20 @@ body{
   #myBtn:hover {
     background-color: rgb(87, 2, 4);
   }
-  h2{
-    padding: 40px 0px;
+  .meimg{
+    float: left;
+    padding-right: 28px;
+    opacity: 0.9;
+    animation: 5s change_opacity_img ease-in;
   }
-  .title_start{
-    padding-top: 85px;
+}
+@media screen and (min-width: 768px) and (max-width: 769px)
+{
+  .photo.large{
+    margin-top: -30% !important;
   }
-  .fixed {
-    position: fixed !important;
-    top: 0;
-    height: 90px;
-    z-index: 1;
+  .photo.medium.second {
+    margin-top: -31.2% !important;
   }
 }
 
