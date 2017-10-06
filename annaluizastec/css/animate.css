@@ -73,7 +73,7 @@
     }
 }
 
-@keyframes changecolor_font{
+/*@keyframes changecolor_font{
     0% {
         color: black;
     }
@@ -81,6 +81,7 @@
         color: rgb(169, 144, 122);
     }
 }
+
 @keyframes change_opacity_img{
     0% {
         opacity: 0;
@@ -88,8 +89,16 @@
     100% {
         opacity: 0.9;
     }
+}*/
+
+[aos="changecolor_font"] {
+    opacity: 0;
+    transition-property: opacity;
 }
 
+[aos="changecolor_font"].aos-animate {
+    opacity: 1;
+}
 
 
 

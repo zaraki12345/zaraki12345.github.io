@@ -1,8 +1,9 @@
-// When the user scrolls down 20px from the top of the document, show the button
+
+// BUTTON SCROLL TO TOP SHOW UP AFTER 40PX
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 40 || document.documentElement.scrollTop > 40) {
         document.getElementById("myBtn").style.display = "block";
     } else {
         document.getElementById("myBtn").style.display = "none";
@@ -15,7 +16,8 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For IE and Firefox
 }
 
-/* NAVBAR SHOW UP */
+/* NAVBAR SHOW UP SKRYPT */
+
 $(document).ready(function(){
     $(window).bind('scroll', function() {
         var navHeight = $( window ).height() - 70;
@@ -29,7 +31,7 @@ $(document).ready(function(){
 });
 
 /* MASONRY */
-// init Masonry after all images have loaded
+/*
 var $grid = $('.grid').imagesLoaded( function() {
     $grid.masonry({
         itemSelector: '.grid-item',
@@ -43,23 +45,41 @@ $('.grid').isotope({
     masonry: {
         columnWidth: '.grid-sizer'
     }
+});*/
+
+//SMOOTH SCROLLING SKRYPT:
+
+// Add smooth scrolling on all links inside the navbar
+$("#main-navbar a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+            scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+        });
+
+    } // End if
+
 });
 
+// AOS ANIMACJA
 
-// Example starter JavaScript for disabling form submissions if there are invalid fields
-(function() {
-    "use strict";
-    window.addEventListener("load", function() {
-        var form = document.getElementById("needs-validation");
-        form.addEventListener("submit", function(event) {
-            if (form.checkValidity() == false) {
-                event.preventDefault();
-                event.stopPropagation();
-            }
-            form.classList.add("was-validated");
-        }, false);
-    }, false);
-}());
+AOS.init({
+    duration: 1200,
+})
 
 
 

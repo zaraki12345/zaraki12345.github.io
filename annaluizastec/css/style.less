@@ -13,6 +13,7 @@
 body{
   font-family: 'Titillium Web', sans-serif;
   position: relative;
+  overflow-y: scroll;
 }
 h6{
   margin-bottom: 0;
@@ -62,7 +63,8 @@ h6{
   color: rgb(189, 160, 135);
 }
 .oferta,
-.o-mnie{
+.o-mnie,
+.projekt{
   padding-bottom: 30px;
   min-height: 450px;
 }
@@ -128,8 +130,8 @@ h6{
   color: #fff;
 }
 .oferta h2,
- .o-mnie h2,
- .start h2{
+.o-mnie h2,
+.start h2{
    animation: 5s changecolor ease-out infinite 5s;
  }
 .oferta span,
@@ -147,8 +149,11 @@ h6{
     float: left;
     opacity: 0.9;
     width: 100%;
-    animation: 5s change_opacity_img ease-in;
     padding-bottom: 30px;
+    border-radius: 50%;
+  }
+  .meimg{
+    animation: 5s change_opacity_img ease-in;
   }
   .navbar-brand-2{
     font-family: 'Blacksword', cursive;
@@ -164,6 +169,9 @@ h6{
     float: left;
     padding-right: 28px;
     opacity: 0.9;
+    border-radius: 50%;
+  }
+  .meimg{
     animation: 5s change_opacity_img ease-in;
   }
 }
@@ -280,6 +288,9 @@ h6{
     float: left;
     padding-right: 28px;
     opacity: 0.9;
+    border-radius: 50%;
+  }
+  .meimg{
     animation: 5s change_opacity_img ease-in;
   }
 }
