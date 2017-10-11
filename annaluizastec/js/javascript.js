@@ -50,7 +50,7 @@ $('.grid').isotope({
 //SMOOTH SCROLLING SKRYPT:
 
 // Add smooth scrolling on all links inside the navbar
-$("#main-navbar a").on('click', function(event) {
+$('#main-navbar a, header a').on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
