@@ -5,9 +5,28 @@
 
 /* ====== Variables ====== */
 
+@kolor-czcionki: rgb(189, 160, 135);
+@kolor-button: rgb(87, 2, 4);
 
 /* ====== Mixins ====== */
-
+.domieszka-tranistion {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.domieszka-photo-shadow{
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.domieszka-photo-transform{
+  -ms-transform: rotate(1deg) scale(1.05); /* IE 9 */
+  -webkit-transform: rotate(1deg) scale(1.05); /* Chrome, Safari, Opera */
+  transform: rotate(1deg) scale(1.05);
+}
 
 /* ====== Base tags ====== */
 body{
@@ -31,8 +50,6 @@ h6{
   overflow: hidden;
 }
 
-
-
 .oferta ul{
   padding-left: 0;
   li{
@@ -42,17 +59,15 @@ h6{
 .background-design{
   background: url(../img/background1.jpg) no-repeat center fixed;
   background-size:cover;
-  height: 200px;
+  height: 270px;
 }
 .background-design2{
-  background: url(../img/background3.jpg) no-repeat center fixed;
-  background-size:cover;
-  height: 200px;
+  &:extend(.background-design);
+  background: url(../img/PROJEKT12.jpg) no-repeat center fixed;
 }
 .background-design3{
+  &:extend(.background-design);
   background: url(../img/background2.jpg) no-repeat center fixed;
-  background-size:cover;
-  height: 200px;
 }
 .start,
 .o-mnie,
@@ -60,7 +75,7 @@ h6{
 .kontakt,
 .author{
   background-color: black;
-  color: rgb(189, 160, 135);
+  color: @kolor-czcionki;
 }
 .oferta,
 .o-mnie,
@@ -73,8 +88,6 @@ h6{
   min-height: 100px;
   padding-top: 70px;
 }
-
-
 
 
 /* ====== Bootstrap tags ====== */
@@ -94,24 +107,24 @@ h6{
   width: 50%;
 }
 .btn-primary{
-  color: rgb(189, 160, 135);
+  color: @kolor-czcionki;
   text-transform: none ;
-  background-color: rgb(87, 2, 4);
+  background-color: @kolor-button;
   border: none;
 }
 .btn-primary:hover{
-  background-color: rgb(87, 2, 4);
+  background-color: @kolor-button;
   background-image: none;
   border-color: white;
 }
 .btn-secondary{
   background-color: transparent;
   border:none;
-  color: rgb(189, 160, 135) !important;
+  color: @kolor-czcionki !important;
   text-transform: uppercase;
 }
 .btn-secondary:hover {
-  background-color: rgb(87, 2, 4);
+  background-color: @kolor-button;
   border-color: transparent;
 }
 .btn-secondary.active{
@@ -123,7 +136,7 @@ h6{
 .btn-primary.disabled, .btn-primary:disabled {
   background-color: rgb(131, 70, 46);
   border-color: rgb(131, 70, 46);
-  color: rgb(189, 160, 135)
+  color: @kolor-czcionki;
 }
 
 .fa-bars{
@@ -131,7 +144,8 @@ h6{
 }
 .oferta h2,
 .o-mnie h2,
-.start h2{
+.start h2,
+.start h1{
    animation: 5s changecolor ease-out infinite 5s;
  }
 
@@ -198,7 +212,7 @@ h6{
     z-index: 99;
     border: none;
     outline: none; /* Remove outline */
-    background-color: rgb(87, 2, 4);
+    background-color: @kolor-button;
     color: white;
     cursor: pointer;
     padding: 4px;
@@ -209,7 +223,7 @@ h6{
   }
 
   #myBtn:hover {
-    background-color: rgb(87, 2, 4);
+    background-color: @kolor-button;
   }
   .fixed {
     position: fixed;
@@ -220,7 +234,7 @@ h6{
   .navbar{
     top: 0 !important;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.62);
+    background: rgba(0, 0, 0, 0.86);
   }
   .photo.medium,
   .photo.high,
@@ -233,7 +247,7 @@ h6{
   .photo.medium.second{
     margin-top: 0 !important;
   }
-  h2{
+  h2,h1{
     padding: 40px 0px;
   }
   .title_start{
@@ -265,8 +279,7 @@ h6{
   }
   .navbar{
     padding: 0px 30px;
-    /*  box-shadow: 0 4px 2px -2px gray;*/
-    background-color: rgba(0,0,0,0.19);
+    background-color: rgba(0,0,0,0.86);
     bottom: 0;
     right:0;
     width: 100%;
@@ -281,7 +294,7 @@ h6{
     letter-spacing: 1px;
   }
 
-  h2{
+  h2,h1{
     padding: 40px 0px;
   }
   .title_start{
@@ -301,7 +314,7 @@ h6{
     z-index: 99;
     border: none;
     outline: none; /* Remove outline */
-    background-color: rgb(87, 2, 4);
+    background-color: @kolor-button;
     color: white;
     cursor: pointer;
     padding: 4px;
@@ -312,7 +325,7 @@ h6{
   }
 
   #myBtn:hover {
-    background-color: rgb(87, 2, 4);
+    background-color: @kolor-button;
   }
   .meimg{
     float: left;
@@ -464,12 +477,9 @@ h6{
 /* MASONRY STYLES*/
 
 .photo{
-  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  -o-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   float: left;
   padding: 5px;
+  .domieszka-photo-shadow;
 }
 .photo.medium,
 .photo.high,
@@ -483,17 +493,11 @@ h6{
 .photo_shell{
   width:100%;
   overflow: hidden;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
-  transition: 1s;
+  .domieszka-tranistion;
 }
 .photo_shell:hover {
   cursor: pointer;
-  -ms-transform: rotate(1deg) scale(1.05); /* IE 9 */
-  -webkit-transform: rotate(1deg) scale(1.05); /* Chrome, Safari, Opera */
-  transform: rotate(1deg) scale(1.05);
+  .domieszka-photo-transform;
 }
 .photo_shell a {
   display: block;

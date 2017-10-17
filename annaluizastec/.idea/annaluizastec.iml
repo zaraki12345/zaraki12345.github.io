@@ -14,5 +14,9 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="8ad371edeb" level="application" />
+    <orderEntry type="library" name="jquery-3.2.1.slim" level="application" />
+    <orderEntry type="library" name="popper" level="application" />
+    <orderEntry type="library" name="aos" level="application" />
   </component>
 </module>

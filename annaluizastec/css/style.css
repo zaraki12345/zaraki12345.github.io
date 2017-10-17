@@ -11,6 +11,26 @@
 }
 /* ====== Variables ====== */
 /* ====== Mixins ====== */
+.domieszka-tranistion {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+.domieszka-photo-shadow {
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.domieszka-photo-transform {
+  -ms-transform: rotate(1deg) scale(1.05);
+  /* IE 9 */
+  -webkit-transform: rotate(1deg) scale(1.05);
+  /* Chrome, Safari, Opera */
+  transform: rotate(1deg) scale(1.05);
+}
 /* ====== Base tags ====== */
 body {
   font-family: 'Titillium Web', sans-serif;
@@ -37,20 +57,18 @@ h6 {
 .oferta ul li {
   list-style: none;
 }
-.background-design {
+.background-design,
+.background-design2,
+.background-design3 {
   background: url(../img/background1.jpg) no-repeat center fixed;
   background-size: cover;
-  height: 200px;
+  height: 270px;
 }
 .background-design2 {
-  background: url(../img/background3.jpg) no-repeat center fixed;
-  background-size: cover;
-  height: 200px;
+  background: url(../img/PROJEKT12.jpg) no-repeat center fixed;
 }
 .background-design3 {
   background: url(../img/background2.jpg) no-repeat center fixed;
-  background-size: cover;
-  height: 200px;
 }
 .start,
 .o-mnie,
@@ -123,7 +141,8 @@ h6 {
 }
 .oferta h2,
 .o-mnie h2,
-.start h2 {
+.start h2,
+.start h1 {
   animation: 5s changecolor ease-out infinite 5s;
 }
 /* ====== Media Queries ====== */
@@ -209,7 +228,7 @@ h6 {
   .navbar {
     top: 0 !important;
     z-index: 1;
-    background: rgba(0, 0, 0, 0.62);
+    background: rgba(0, 0, 0, 0.86);
   }
   .photo.medium,
   .photo.high,
@@ -222,7 +241,8 @@ h6 {
   .photo.medium.second {
     margin-top: 0 !important;
   }
-  h2 {
+  h2,
+  h1 {
     padding: 40px 0px;
   }
   .title_start {
@@ -252,8 +272,7 @@ h6 {
   }
   .navbar {
     padding: 0px 30px;
-    /*  box-shadow: 0 4px 2px -2px gray;*/
-    background-color: rgba(0, 0, 0, 0.19);
+    background-color: rgba(0, 0, 0, 0.86);
     bottom: 0;
     right: 0;
     width: 100%;
@@ -267,7 +286,8 @@ h6 {
     line-height: 1.8;
     letter-spacing: 1px;
   }
-  h2 {
+  h2,
+  h1 {
     padding: 40px 0px;
   }
   .title_start {
@@ -421,12 +441,12 @@ h6 {
 }
 /* MASONRY STYLES*/
 .photo {
+  float: left;
+  padding: 5px;
   -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  float: left;
-  padding: 5px;
 }
 .photo.medium,
 .photo.high,
