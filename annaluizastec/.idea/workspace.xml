@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99d0e17c-06d2-4fcb-899f-f8d1c0da5747" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../bootstrapprojekt2/js/js.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/PROJEKT10.jpg" afterPath="$PROJECT_DIR$/img/PROJEKT10.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/PROJEKT11.jpg" afterPath="$PROJECT_DIR$/img/PROJEKT11.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/PROJEKT12.jpg" afterPath="$PROJECT_DIR$/img/PROJEKT12.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/PROJEKT2.jpg" afterPath="$PROJECT_DIR$/img/PROJEKT2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/PROJEKT3.jpg" afterPath="$PROJECT_DIR$/img/PROJEKT3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/PROJEKT4.jpg" afterPath="$PROJECT_DIR$/img/PROJEKT4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/background2.jpg" afterPath="$PROJECT_DIR$/img/background2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/annaluizastec.iml" afterPath="$PROJECT_DIR$/.idea/annaluizastec.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.less" afterPath="$PROJECT_DIR$/css/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bootstrapprojekt2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../bootstrapprojekt2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../bootstrapprojekt2/index.html" afterPath="$PROJECT_DIR$/../bootstrapprojekt2/index.html" />
     </list>
@@ -346,7 +333,7 @@
       <workItem from="1507751567641" duration="4312000" />
       <workItem from="1507820145942" duration="1035000" />
       <workItem from="1508082533800" duration="1323000" />
-      <workItem from="1508233338788" duration="12783000" />
+      <workItem from="1508233338788" duration="13442000" />
     </task>
     <task id="LOCAL-00001" summary="Reupload">
       <created>1504954614283</created>
@@ -663,11 +650,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508083278093</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Less poprawione, szybkość także. Strona wdrożona na annaluizastec.pl">
+      <created>1508253064496</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1508253064496</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151760000" />
+    <option name="totallyTimeSpent" value="152419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1231" height="816" extended-state="6" />
@@ -700,7 +694,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Main text repair rwd and button delete" />
     <MESSAGE value="Main text repair rwd and button deletelol" />
     <MESSAGE value="Change color text and background jpeg" />
     <MESSAGE value="TEST LOGO" />
@@ -725,7 +718,8 @@
     <MESSAGE value="Poprawione AOS'y&#10;&#10;Less do poprawy!&#10;Szybkość ładowania strony!" />
     <MESSAGE value="Dodana strzałka&#10;&#10;Less do poprawy!&#10;Szybkość ładowania strony!&#10;" />
     <MESSAGE value="Poprawki od Anii&#10;&#10;Less do poprawy!&#10;Szybkość ładowania strony!&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawki od Anii&#10;&#10;Less do poprawy!&#10;Szybkość ładowania strony!&#10;" />
+    <MESSAGE value="Less poprawione, szybkość także. Strona wdrożona na annaluizastec.pl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Less poprawione, szybkość także. Strona wdrożona na annaluizastec.pl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
