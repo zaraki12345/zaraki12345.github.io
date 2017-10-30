@@ -1,0 +1,31 @@
+/* ====== Import styles ====== */
+@import "animate.css";
+@font-face {
+  font-family: Blacksword;
+  src: url('Blacksword.otf');
+}
+@font-face {
+  font-family: Blacksword;
+  font-weight: bold;
+  src: url('Blacksword.otf');
+}
+/* ====== Variables ====== */
+/* ====== Mixins ====== */
+/* ====== Base tags ====== */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  overflow-y: scroll;
+}
+header {
+  height: 100vh;
+}
+/* ====== Layout tags ====== */
+.svg_cupcake {
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+/* ====== Bootstrap tags ====== */
+/* ====== Media Queries ====== */
+/* ===== SVG =====*/
