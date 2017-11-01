@@ -26,13 +26,11 @@ header {
   margin: 0 auto;
   padding-top: 64px;
 }
-.green_dots {
-  animation: green_dot_animation 2s ease-in;
+#green_dots path {
+  -webkit-animation: green_dot_animation 1s infinite;
+  /* Safari 4+ */
+  -webkit-transform-origin: 50% 50%;
 }
-/*.green_dots:hover{
-  transform: scale(1.25);
-  transition-duration: 1.5s;
-}*/
 /* ====== Bootstrap tags ====== */
 /* ====== Media Queries ====== */
 /* ===== SVG =====*/

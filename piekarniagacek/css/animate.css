@@ -1,15 +1,9 @@
 /*  ANIMATION SVG CUPCAKE   */
-@keyframes green_dot_animation {
-    from {
-        transform: scale3d(0.5, 0.5, 0.5);
-        fill: #000;
+@-webkit-keyframes green_dot_animation {
+    0%, 100%   {
+        transform: scale(2);
     }
     50%{
-        transform: scale3d(1.5, 1.5, 1.5);
-        fill: #fff;
-        background-color: #7d7b6d;
-    }
-    to {
-        transform: scale3d(1, 1, 1);
+        transform: scale(1);
     }
 }
