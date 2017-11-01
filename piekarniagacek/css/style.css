@@ -26,6 +26,9 @@ header {
   margin: 0 auto;
   padding-top: 64px;
 }
+.green_dots {
+  animation: green_dot_animation 2s ease-in;
+}
 /* ====== Bootstrap tags ====== */
 /* ====== Media Queries ====== */
 /* ===== SVG =====*/
