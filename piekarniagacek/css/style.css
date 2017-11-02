@@ -26,79 +26,69 @@ header {
   margin: 0 auto;
   padding-top: 64px;
 }
-.red_dot path {
-  animation: red_dot_animation 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  -webkit-animation: red_dot_animation 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
-  /* Safari 4+ */
-  -moz-animation: red_dot_animation 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+.cup {
+  animation: squash 0.9s ease-in;
+}
+.red_dot path,
+.green_dot1,
+.green_dot2,
+.green_dot3,
+.green_dot4,
+.green_dot5,
+.green_dot6,
+.green_dot7,
+.green_dot8,
+.green_dot9,
+.green_dot10,
+.green_dot11 {
+  animation: pulse 0.75s ease-in-out 2.3s both;
+  -webkit-animation: pulse 0.75s ease-in-out 2.3s both;
   -webkit-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  animation-delay: 1.1s;
 }
 .green_dot1 {
-  -webkit-animation: green_dot_animation1 0.5s ease-in;
-  -o-animation: green_dot_animation1 0.5s ease-in;
-  animation: green_dot_animation1 0.5s ease-in;
+  animation: pulse 1s ease-in-out 1.2s both;
+  -webkit-animation: pulse 1s ease-in-out 1.2s both;
 }
 .green_dot2 {
-  -webkit-animation: green_dot_animation2 0.5s ease-in;
-  -o-animation: green_dot_animation2 0.5s ease-in;
-  animation: green_dot_animation2 0.5s ease-in;
-  animation-delay: 0.1s;
+  animation: pulse 1s ease-in-out 1.3s both;
+  -webkit-animation: pulse 1s ease-in-out 1.3s both;
 }
 .green_dot3 {
-  -webkit-animation: green_dot_animation3 0.5s ease-in;
-  -o-animation: green_dot_animation3 0.5s ease-in;
-  animation: green_dot_animation3 0.5s ease-in;
-  animation-delay: 0.2s;
+  animation: pulse 1s ease-in-out 1.4s both;
+  -webkit-animation: pulse 1s ease-in-out 1.4s both;
 }
 .green_dot4 {
-  -webkit-animation: green_dot_animation4 0.5s ease-in;
-  -o-animation: green_dot_animation4 0.5s ease-in;
-  animation: green_dot_animation4 0.5s ease-in;
-  animation-delay: 0.3s;
+  animation: pulse 1s ease-in-out 1.5s both;
+  -webkit-animation: pulse 1s ease-in-out 1.5s both;
 }
 .green_dot5 {
-  -webkit-animation: green_dot_animation5 0.5s ease-in;
-  -o-animation: green_dot_animation5 0.5s ease-in;
-  animation: green_dot_animation5 0.5s ease-in;
-  animation-delay: 0.4s;
+  animation: pulse 1s ease-in-out 1.6s both;
+  -webkit-animation: pulse 1s ease-in-out 1.6s both;
 }
 .green_dot6 {
-  -webkit-animation: green_dot_animation6 0.5s ease-in;
-  -o-animation: green_dot_animation6 0.5s ease-in;
-  animation: green_dot_animation6 0.5s ease-in;
-  animation-delay: 0.5s;
+  animation: pulse 1s ease-in-out 1.7s both;
+  -webkit-animation: pulse 1s ease-in-out 1.7s both;
 }
 .green_dot7 {
-  -webkit-animation: green_dot_animation7 0.5s ease-in;
-  -o-animation: green_dot_animation7 0.5s ease-in;
-  animation: green_dot_animation7 0.5s ease-in;
-  animation-delay: 0.6s;
+  animation: pulse 1s ease-in-out 1.8s both;
+  -webkit-animation: pulse 1s ease-in-out 1.8s both;
 }
 .green_dot8 {
-  -webkit-animation: green_dot_animation8 0.5s ease-in;
-  -o-animation: green_dot_animation8 0.5s ease-in;
-  animation: green_dot_animation8 0.5s ease-in;
-  animation-delay: 0.7s;
+  animation: pulse 1s ease-in-out 1.9s both;
+  -webkit-animation: pulse 1s ease-in-out 1.9s both;
 }
 .green_dot9 {
-  -webkit-animation: green_dot_animation9 0.5s ease-in;
-  -o-animation: green_dot_animation9 0.5s ease-in;
-  animation: green_dot_animation9 0.5s ease-in;
-  animation-delay: 0.8s;
+  animation: pulse 1s ease-in-out 2s both;
+  -webkit-animation: pulse 1s ease-in-out 2s both;
 }
 .green_dot10 {
-  -webkit-animation: green_dot_animation10 0.5s ease-in;
-  -o-animation: green_dot_animation10 0.5s ease-in;
-  animation: green_dot_animation10 0.5s ease-in;
-  animation-delay: 0.9s;
+  animation: pulse 1s ease-in-out 2.1s both;
+  -webkit-animation: pulse 1s ease-in-out 2.1s both;
 }
 .green_dot11 {
-  -webkit-animation: green_dot_animation11 0.5s ease-in;
-  -o-animation: green_dot_animation11 0.5s ease-in;
-  animation: green_dot_animation11 0.5s ease-in;
-  animation-delay: 1s;
+  animation: pulse 1s ease-in-out 2.2s both;
+  -webkit-animation: pulse 1s ease-in-out 2.2s both;
 }
 /* ====== Bootstrap tags ====== */
 /* ====== Media Queries ====== */

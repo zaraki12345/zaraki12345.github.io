@@ -1,97 +1,120 @@
 /*  ANIMATION SVG CUPCAKE   */
-@keyframes red_dot_animation {
-    0% {
-        transform: scale(1);
+@keyframes squash {
+
+    0%, 100% {
+        transform-origin: 50% 100%;
     }
-    75%{
-        transform: scale(1.3);
+
+    0% {
+        transform:  translate(0%,-150%)  scaleX(0.50) scaleY(1.50) ;
+        opacity: 0;
+    }
+    11% {
+        transform:  translate(0%,-90%)  scaleX(0.41) scaleY(1.59) ;
+        opacity: .1;
+    }
+    30% {
+        transform:  translate(0%,-18%)  scaleX(0.25) scaleY(1.75) ;
+        opacity: 1;
+    }
+    35% {
+        transform:  translate(0%,-2%)  scaleX(1.30) scaleY(0.20) ;
+
+    }
+    46% {
+        transform:  translate(0%,2%)  scaleX(1.40) scaleY(0.10) ;
+
+    }
+    54% {
+        transform:  translate(0%, 2%)  scaleX(0.80) scaleY(1.20) ;
+    }
+    66% {
+        transform:  translate(0%,0%)  scaleX(1.20) scaleY(0.80) ;
+
+    }
+    78% {
+        transform:  translate(0%,0%)  scaleX(0.95) scaleY(1.05) ;
+    }
+    100% {
+        transform: inherit;
     }
 }
-@keyframes green_dot_animation1 {
-    100% {
-        transform: scale(1);
+
+/*@keyframes squash {
+
+    0%, 100% {
+        transform-origin: 50% 100%;
     }
+
     0% {
-        transform: scale(2,1);
+        transform: scaleX(0.50);
+        opacity: 0;
     }
-}
-@keyframes green_dot_animation2 {
+    11% {
+        transform: scaleX(0.41);
+        opacity: .1;
+    }
+    30% {
+        transform: scaleX(0.25);
+        opacity: 1;
+    }
+    35% {
+        transform: scaleX(1.10);
+
+    }
+    46% {
+        transform: scaleX(1.20);
+
+    }
+    54% {
+        transform: scaleX(0.80);
+    }
+    66% {
+        transform: scaleX(1.20);
+
+    }
+    78% {
+        transform: scaleX(0.95);
+    }
     100% {
-        transform: scale(1);
+        transform: inherit;
     }
+}*/
+
+
+
+
+@keyframes pulse {
+    0%, 20%, 40%, 60%, 80%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+
     0% {
-        transform: scale(1,-2);
+        opacity: 0;
+        -webkit-transform: scale3d(.3, .3, .3);
+        transform: scale3d(.3, .3, .3);
     }
-}
-@keyframes green_dot_animation3 {
+
+    20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+
+    40% {
+        -webkit-transform: scale3d(.9, .9, .9);
+        transform: scale3d(.9, .9, .9);
+    }
+
+    60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03);
+    }
+
     100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,3);
-    }
-}
-@keyframes green_dot_animation4 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(-2,1);
-    }
-}
-@keyframes green_dot_animation5 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(-2,1);
-    }
-}
-@keyframes green_dot_animation6 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,6);
-    }
-}
-@keyframes green_dot_animation7 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,7);
-    }
-}
-@keyframes green_dot_animation8 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,8);
-    }
-}
-@keyframes green_dot_animation9 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,9);
-    }
-}
-@keyframes green_dot_animation10 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,10);
-    }
-}
-@keyframes green_dot_animation11 {
-    100% {
-        transform: scale(1);
-    }
-    0% {
-        transform: scale(1,11);
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
     }
 }
