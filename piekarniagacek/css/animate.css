@@ -6,7 +6,7 @@
     }
 
     0% {
-        transform:  translate(0%,-150%)  scaleX(0.50) scaleY(1.50) ;
+        transform:  translate(0%,-120%)  scaleX(0.50) scaleY(1.50) ;
         opacity: 0;
     }
     11% {
@@ -18,11 +18,11 @@
         opacity: 1;
     }
     35% {
-        transform:  translate(0%,-2%)  scaleX(1.30) scaleY(0.20) ;
+        transform:  translate(0%,-2%)  scaleX(1.30) scaleY(0.40) ;
 
     }
     46% {
-        transform:  translate(0%,2%)  scaleX(1.40) scaleY(0.10) ;
+        transform:  translate(0%,2%)  scaleX(1.40) scaleY(0.0) ;
 
     }
     54% {

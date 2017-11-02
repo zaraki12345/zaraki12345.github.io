@@ -1,14 +1,7 @@
 /* ====== Import styles ====== */
 @import "animate.css";
-@font-face {
-  font-family: Blacksword;
-  src: url('Blacksword.otf');
-}
-@font-face {
-  font-family: Blacksword;
-  font-weight: bold;
-  src: url('Blacksword.otf');
-}
+/*@font-face { font-family: Blacksword; src: url('Blacksword.otf'); }
+@font-face { font-family: Blacksword; font-weight: bold; src: url('Blacksword.otf');}*/
 /* ====== Variables ====== */
 /* ====== Mixins ====== */
 /* ====== Base tags ====== */
@@ -20,11 +13,19 @@ body {
 header {
   height: 100vh;
 }
+h1,
+.navbar-brand-2 {
+  font-family: 'Fredericka the Great', cursive;
+}
 /* ====== Layout tags ====== */
 .svg_cupcake {
   max-width: 400px;
   margin: 0 auto;
   padding-top: 64px;
+  z-index: 9999;
+}
+#Layer_1 {
+  padding-top: 60px;
 }
 .cup {
   animation: squash 0.9s ease-in;
@@ -91,5 +92,14 @@ header {
   -webkit-animation: pulse 1s ease-in-out 2.2s both;
 }
 /* ====== Bootstrap tags ====== */
+.btn-secondary {
+  color: #fff !important;
+  background-color: #ed5564;
+  border-color: #ed5564;
+}
+.btn-secondary:hover {
+  background-color: #9fd367;
+  border-color: #9fd367;
+}
 /* ====== Media Queries ====== */
 /* ===== SVG =====*/
