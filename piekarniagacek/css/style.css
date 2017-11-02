@@ -26,10 +26,79 @@ header {
   margin: 0 auto;
   padding-top: 64px;
 }
-#green_dots path {
-  -webkit-animation: green_dot_animation 1s infinite;
+.red_dot path {
+  animation: red_dot_animation 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -webkit-animation: red_dot_animation 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
   /* Safari 4+ */
+  -moz-animation: red_dot_animation 1s cubic-bezier(0.18, 0.89, 0.32, 1.28);
   -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  animation-delay: 1.1s;
+}
+.green_dot1 {
+  -webkit-animation: green_dot_animation1 0.5s ease-in;
+  -o-animation: green_dot_animation1 0.5s ease-in;
+  animation: green_dot_animation1 0.5s ease-in;
+}
+.green_dot2 {
+  -webkit-animation: green_dot_animation2 0.5s ease-in;
+  -o-animation: green_dot_animation2 0.5s ease-in;
+  animation: green_dot_animation2 0.5s ease-in;
+  animation-delay: 0.1s;
+}
+.green_dot3 {
+  -webkit-animation: green_dot_animation3 0.5s ease-in;
+  -o-animation: green_dot_animation3 0.5s ease-in;
+  animation: green_dot_animation3 0.5s ease-in;
+  animation-delay: 0.2s;
+}
+.green_dot4 {
+  -webkit-animation: green_dot_animation4 0.5s ease-in;
+  -o-animation: green_dot_animation4 0.5s ease-in;
+  animation: green_dot_animation4 0.5s ease-in;
+  animation-delay: 0.3s;
+}
+.green_dot5 {
+  -webkit-animation: green_dot_animation5 0.5s ease-in;
+  -o-animation: green_dot_animation5 0.5s ease-in;
+  animation: green_dot_animation5 0.5s ease-in;
+  animation-delay: 0.4s;
+}
+.green_dot6 {
+  -webkit-animation: green_dot_animation6 0.5s ease-in;
+  -o-animation: green_dot_animation6 0.5s ease-in;
+  animation: green_dot_animation6 0.5s ease-in;
+  animation-delay: 0.5s;
+}
+.green_dot7 {
+  -webkit-animation: green_dot_animation7 0.5s ease-in;
+  -o-animation: green_dot_animation7 0.5s ease-in;
+  animation: green_dot_animation7 0.5s ease-in;
+  animation-delay: 0.6s;
+}
+.green_dot8 {
+  -webkit-animation: green_dot_animation8 0.5s ease-in;
+  -o-animation: green_dot_animation8 0.5s ease-in;
+  animation: green_dot_animation8 0.5s ease-in;
+  animation-delay: 0.7s;
+}
+.green_dot9 {
+  -webkit-animation: green_dot_animation9 0.5s ease-in;
+  -o-animation: green_dot_animation9 0.5s ease-in;
+  animation: green_dot_animation9 0.5s ease-in;
+  animation-delay: 0.8s;
+}
+.green_dot10 {
+  -webkit-animation: green_dot_animation10 0.5s ease-in;
+  -o-animation: green_dot_animation10 0.5s ease-in;
+  animation: green_dot_animation10 0.5s ease-in;
+  animation-delay: 0.9s;
+}
+.green_dot11 {
+  -webkit-animation: green_dot_animation11 0.5s ease-in;
+  -o-animation: green_dot_animation11 0.5s ease-in;
+  animation: green_dot_animation11 0.5s ease-in;
+  animation-delay: 1s;
 }
 /* ====== Bootstrap tags ====== */
 /* ====== Media Queries ====== */

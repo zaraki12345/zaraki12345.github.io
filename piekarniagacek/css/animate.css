@@ -1,9 +1,97 @@
 /*  ANIMATION SVG CUPCAKE   */
-@-webkit-keyframes green_dot_animation {
-    0%, 100%   {
-        transform: scale(2);
-    }
-    50%{
+@keyframes red_dot_animation {
+    0% {
         transform: scale(1);
+    }
+    75%{
+        transform: scale(1.3);
+    }
+}
+@keyframes green_dot_animation1 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(2,1);
+    }
+}
+@keyframes green_dot_animation2 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,-2);
+    }
+}
+@keyframes green_dot_animation3 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,3);
+    }
+}
+@keyframes green_dot_animation4 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(-2,1);
+    }
+}
+@keyframes green_dot_animation5 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(-2,1);
+    }
+}
+@keyframes green_dot_animation6 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,6);
+    }
+}
+@keyframes green_dot_animation7 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,7);
+    }
+}
+@keyframes green_dot_animation8 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,8);
+    }
+}
+@keyframes green_dot_animation9 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,9);
+    }
+}
+@keyframes green_dot_animation10 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,10);
+    }
+}
+@keyframes green_dot_animation11 {
+    100% {
+        transform: scale(1);
+    }
+    0% {
+        transform: scale(1,11);
     }
 }
