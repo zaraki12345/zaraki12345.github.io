@@ -22,8 +22,8 @@ header{
   /*
   background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #FFFAC9 0%, #FFD9AD 75%);
   */
-  background:-webkit-radial-gradient(center, ellipse farthest-corner, rgba(255, 250, 201, 0.32) 0%, #FFD9AD 75%),
-            url("../img/gingerbread-house.png") center no-repeat;
+  background:-webkit-radial-gradient(center, ellipse farthest-corner, rgba(255, 250, 201, 0.32) 0%, #FFD9AD 75%);
+            /*url("../img/gingerbread-house2.png") center no-repeat;*/
   background-size: contain;
   padding: 0;
   margin: 0;
@@ -54,7 +54,17 @@ h1{
   /*
   padding-top: 11vh;
   */
-  z-index: 9999;
+  z-index: 2;
+}
+.svg_house{
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 11vh;
+  right: 0;
+  width: 79vh;
+  z-index: -1;
+  opacity: 0.6;
 }
 #Layer_1 {
   padding-top: 60px;
@@ -83,7 +93,7 @@ h1{
   width: 30vh;
   height: 30vh;
 }
-
+/*Cupcake animation classes*/
 .red_dot path {
   animation: pulse .75s ease-in-out 1.7s both;
   -webkit-animation: pulse .75s ease-in-out 1.7s both;
@@ -145,8 +155,10 @@ h1{
   animation: pulse 1s ease-in-out 1.7s both;
   -webkit-animation: pulse 1s ease-in-out 1.7s both;
 }
-
-
+/*House Animation classes*/
+.door_house{
+  animation: pulse_door 1s ease-in-out 1.8s infinite;
+}
 /* ====== Bootstrap tags ====== */
 .btn-secondary{
   color: #fff !important;
