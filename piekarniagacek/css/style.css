@@ -152,8 +152,8 @@ h1 {
   -webkit-animation: pulse 1s ease-in-out 1.7s both;
 }
 /*House Animation classes*/
-.door_house {
-  animation: pulse_door 1s ease-in-out 1.8s infinite;
+.window_house {
+  animation: pulse_window 2s ease-in-out 2s infinite;
 }
 /* ====== Bootstrap tags ====== */
 .btn-secondary {
