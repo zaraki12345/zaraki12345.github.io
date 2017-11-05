@@ -126,18 +126,28 @@
         opacity: 0.6;
         fill: #838383;
     }
-    100%{
+    100% {
         opacity: 1;
     }
 }
 @keyframes bounce{
-    0%{
+    0% {
         bottom: -135px
     }
-    50%{
+    50% {
         bottom: -125px;
     }
-    100%{
+    100% {
         bottom: -135px;
+    }
+}
+@keyframes move_in {
+    0% {
+        bottom: -154px;
+        margin-right: -151px;
+    }
+    100% {
+        bottom: -54px;
+        margin-right: -51px;
     }
 }
