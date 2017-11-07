@@ -74,14 +74,12 @@ h1 {
   opacity: 0.6;
 }
 .svg_bread {
-  margin: auto;
   position: absolute;
-  left: 0;
-  bottom: 44vh;
-  right: 0;
-  width: 79vh;
+  margin-left: 0;
+  width: 40vh;
   z-index: 1;
-  opacity: 0.6;
+  opacity: 0.8;
+  animation: move_in_second 2s ease-in;
 }
 #Layer_1 {
   padding-top: 60px;

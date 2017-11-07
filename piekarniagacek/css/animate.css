@@ -151,3 +151,13 @@
         margin-right: -87px;
     }
 }
+@keyframes move_in_second {
+    0% {
+        /*bottom: -154px;*/
+        opacity:0;
+    }
+    100% {
+        /*bottom: -63px;*/
+        opacity:1;
+    }
+}
