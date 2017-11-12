@@ -46,7 +46,6 @@ h1{
   font-family: 'Fredericka the Great', cursive;
   font-size: 3rem;
 }
-
 /* ====== Layout tags ====== */
 .svg_cupcake{
   max-width: 47vh;
@@ -69,8 +68,8 @@ h1{
 .svg_gingerbread-man{
   &:extend(.svg_house);
   transform: rotate(-45deg);
-  bottom: -87px;
-  margin-right: -87px;
+  bottom: -12vh;
+  margin-right: -12vh;
   z-index: 1;
   width: 44vh;
   height: 44vh;
@@ -83,7 +82,6 @@ h1{
   width: 40vh;
   z-index: 1;
   opacity: 0.8;
-  animation: move_in_second 2s ease-in;
 }
 #Layer_1 {
   padding-top: 60px;
@@ -93,25 +91,33 @@ h1{
 }
 .goto{
   position: absolute;
-  bottom: 0;
   left: 50%;
   display: inline-block;
   margin: 0 auto;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   text-align: center;
-}
-.goto.cloud {
-  bottom: -135px;
-  /* padding: 10px 30px; */
-  -webkit-animation: 2s bounce ease-out infinite 2s;
-  animation: 1s bounce ease-out infinite 1s;
+  bottom: -20.5vh;
   color: #fff;
   background: #9fd367;
   border-radius: 50%;
   width: 30vh;
   height: 30vh;
 }
+.cloud {
+  -webkit-animation: 1s bounce ease-out infinite;
+  animation: 1s bounce ease-out infinite ;
+
+}
+.background_layout{
+  background-color: #9fd367;
+  min-height: 15vh;
+}
+.background_oferta{
+/*  background-image: -webkit-linear-gradient(top, #9FD367 0%, #FFD9AD 100%);*/
+  padding-bottom: 10px;
+}
+
 /*Cupcake animation classes*/
 .red_dot path {
   animation: pulse .75s ease-in-out 1.7s both;
@@ -193,7 +199,10 @@ h1{
 .navbar{
   background-color: rgba(237, 85, 100, 0.6);
 }
-
 /* ====== Media Queries ====== */
-
+@media (min-width: 1200px) {
+  .container{
+    max-width: 157vh;
+  }
+}
 /* ===== SVG =====*/

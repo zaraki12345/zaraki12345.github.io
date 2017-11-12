@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stapel.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script src="js/modernizr.custom.63321.js"></script>
+    <!--[if lte IE 7]><style>.support-note .note-ie{display:block;}</style><![endif]-->
     <script src="https://use.fontawesome.com/8ad371edeb.js"></script>
 </head>
 <body>
@@ -207,6 +211,7 @@
         </div>
         <!--/ SVG GINGERBREAD-MAN-->
 
+        <!--SVG BREAD-->
         <div class="svg_bread">
             <svg version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -265,6 +270,7 @@
 </svg>
 
         </div>
+        <!--/ SVG BREAD-->
 
         <!--NAVBAR MENU-->
         <nav class="navbar navbar-expand-md navbar-light navs fixed-top" id="main-navbar">
@@ -278,16 +284,16 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
                     <ul class="nav navbar-nav">
                         <li class="nav-item ">
-                            <a class="nav-link btn btn-secondary mr-sm-3 click" role="button" href="#">START</a>
+                            <a class="nav-link btn btn-secondary mr-sm-2 click" role="button" href="#">START</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-secondary mr-sm-3 click" role="button" href="#">OFERTA</a>
+                            <a class="nav-link btn btn-secondary mr-sm-2 click" role="button" href="#">OFERTA</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-secondary mr-sm-3 click" role="button" href="#">O NAS</a>
+                            <a class="nav-link btn btn-secondary mr-sm-2 click" role="button" href="#">O NAS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn btn-secondary mr-sm-3 click" role="button" href="#">KONTAKT</a>
+                            <a class="nav-link btn btn-secondary mr-sm-2 click" role="button" href="#">KONTAKT</a>
                         </li>
                     </ul>
                 </div>
@@ -297,13 +303,105 @@
         <div>
             <h1>Piekarnia Szonów</h1>
         </div>
-        <div class="goto cloud">
-            <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
-        </div>
     </section>
+    <div class="goto cloud">
+        <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
+    </div>
 </header>
 
+<section class="background_layout">
+</section>
 
+<section class="background_oferta">
+    <section class="container">
+        <div class="topbar">
+            <span id="close" class="back"><i class="fa fa-hand-o-left fa-4x" aria-hidden="true"></i></span>
+            <h2>Oferta</h2><h3 id="name"></h3>
+        </div>
+
+        <ul id="tp-grid" class="tp-grid">
+
+
+            <!-- Torty -->
+            <li data-pile="Torty">
+                <a href="#">
+                    <span class="tp-info"><span>Tort z okazji pierwszej komunii</span></span>
+                    <img src="img/1/1a.jpg" />
+                </a>
+            </li>
+            <li data-pile="Torty">
+                <a href="#">
+                    <span class="tp-info"><span>Tort z okazji urodzin - "Piłkarz"</span></span>
+                    <img src="img/1/2a.jpg" />
+                </a>
+            </li>
+            <li data-pile="Torty">
+                <a href="#">
+                    <span class="tp-info"><span>Tort Ślubny</span></span>
+                    <img src="img/1/3a.jpg" />
+                </a>
+            </li>
+
+            <!-- Ciasta -->
+            <li data-pile="Ciasta">
+                <a href="#">
+                    <span class="tp-info"><span>Czerwona porzeczka</span></span>
+                    <img src="img/2/Czerwona porzeczka1.jpg" />
+                </a>
+            </li>
+            <li data-pile="Ciasta">
+                <a href="#">
+                    <span class="tp-info"><span>Deser bananowy</span></span>
+                    <img src="img/2/Deser bananowy2.jpg" />
+                </a>
+            </li>
+            <li data-pile="Ciasta">
+                <a href="#">
+                    <span class="tp-info"><span>Deser kokosowy</span></span>
+                    <img src="img/2/Deser kokosowy2.jpg" />
+                </a>
+            </li>
+            <li data-pile="Ciasta">
+                <a href="#">
+                    <span class="tp-info"><span>Deser królewski</span></span>
+                    <img src="img/2/Deser królewski2.jpg" />
+                </a>
+            </li>
+            <li data-pile="Ciasta">
+                <a href="#">
+                    <span class="tp-info"><span>Deser paryski</span></span>
+                    <img src="img/2/Deser paryski2.jpg" />
+                </a>
+            </li>
+
+            <!-- Pieczywo -->
+            <li data-pile="Pieczywo">
+                <a href="#">
+                    <span class="tp-info"><span>Pączki</span></span>
+                    <img src="img/3/Pączki1.jpg" />
+                </a>
+            </li>
+            <li data-pile="Pieczywo">
+                <a href="#">
+                    <span class="tp-info"><span>Drożdżówki, rogale i pączki</span></span>
+                    <img src="img/3/Drożdżówki,%20rogale%20i%20pączki1.jpg" />
+                </a>
+            </li>
+            <li data-pile="Pieczywo">
+                <a href="#">
+                    <span class="tp-info"><span>Chleby</span></span>
+                    <img src="img/3/Chleby1.jpg" />
+                </a>
+            </li>
+            <li data-pile="Pieczywo">
+                <a href="#">
+                    <span class="tp-info"><span>Chałka</span></span>
+                    <img src="img/3/Chałka1.jpg" />
+                </a>
+            </li>
+        </ul>
+    </section>
+</section>
 
 <section class="author">
     <div class="container">
@@ -317,5 +415,34 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script src="js/js.js"></script>
+<script type="text/javascript" src="js/jquery.stapel.js"></script>
+<script type="text/javascript">
+    $(function() {
+
+        var $grid = $( '#tp-grid' ),
+            $name = $( '#name' ),
+            $close = $( '#close' ),
+            $loader = $( '<div class="loader"><i></i><i></i><i></i><i></i><i></i><i></i><span>Loading...</span></div>' ).insertBefore( $grid ),
+            stapel = $grid.stapel( {
+                delay : 50,
+                onLoad : function() {
+                    $loader.remove();
+                },
+                onBeforeOpen : function( pileName ) {
+                    $name.html( pileName );
+                },
+                onAfterOpen : function( pileName ) {
+                    $close.show();
+                }
+            } );
+
+        $close.on( 'click', function() {
+            $close.hide();
+            $name.empty();
+            stapel.closePile();
+        } );
+
+    } );
+</script>
 </body>
 </html>

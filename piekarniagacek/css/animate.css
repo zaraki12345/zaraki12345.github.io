@@ -132,32 +132,23 @@
 }*/
 @keyframes bounce{
     0% {
-        bottom: -135px
+        bottom: -20.5vh;
     }
     50% {
-        bottom: -125px;
+        bottom: -21.5vh;
     }
     100% {
-        bottom: -135px;
+        bottom: -20.5vh;
     }
 }
 @keyframes move_in {
     0% {
-        bottom: -254px;
-        margin-right: -251px;
+        bottom: -32vh;
+        margin-right: -32vh;
     }
     100% {
-        bottom: -87px;
-        margin-right: -87px;
+        bottom: -12vh;
+        margin-right: -12vh;
     }
 }
-@keyframes move_in_second {
-    0% {
-        /*bottom: -154px;*/
-        opacity:0;
-    }
-    100% {
-        /*bottom: -63px;*/
-        opacity:1;
-    }
-}
+
