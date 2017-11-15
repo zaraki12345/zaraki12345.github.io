@@ -143,12 +143,20 @@
 }
 @keyframes move_in {
     0% {
-        bottom: -32vh;
-        margin-right: -32vh;
+        bottom: -30vw;
+        margin-right: -30vw;
     }
     100% {
-        bottom: -12vh;
-        margin-right: -12vh;
+        bottom: -8.2vw;
+        margin-right: -8vw;
+    }
+}
+@keyframes navbarcolor_animation{
+    0%{
+        top: -5vw;
+    }
+    100%{
+        top: 0;
     }
 }
 
