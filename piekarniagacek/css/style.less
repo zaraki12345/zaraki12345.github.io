@@ -250,6 +250,10 @@ h3{
   background-color: #9fd367;
   border-color: #9fd367;
 }
+.btn-secondary.active{
+  background-color: #DA4453;
+  border-color: #DA4453;
+}
 .navbarcolor{
   background-color: rgba(237, 85, 100, 0.6);
   animation: navbarcolor_animation 0.5s ease-in;
@@ -306,6 +310,27 @@ iframe{
     width: 40vh;
     z-index: 1;
     opacity: 0.8;
+  }
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 100px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none; /* Remove outline */
+    background-color: #9fd367;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 38px;
+    height: 39px;
+  }
+
+  #myBtn:hover {
+    background-color: #78a04c;
   }
 }
 @media (min-width: 1200px) {
