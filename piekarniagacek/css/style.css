@@ -260,13 +260,38 @@ iframe {
   .image_thumb{
     width: 30vw;
   }
+}*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 100px;
+    right: 10px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    /* Remove outline */
+    background-color: #9fd367;
+    color: white;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 10px;
+    font-weight: 600;
+    width: 38px;
+    height: 39px;
+  }
+  #myBtn:hover {
+    background-color: #78a04c;
+  }
 }
-@media only screen and(min-width: 320px) and (max-width: 375px){
-  .image_thumb{
+@media only screen and (min-width: 320px) and (max-width: 375px) {
+  .image_thumb {
     width: 80vw;
     padding: 0.5vw;
   }
-}*/
+}
 /*@media only screen and (min-width: 650px) and (max-width: 767px) {
   .image_thumb {
     width: 26vw;
