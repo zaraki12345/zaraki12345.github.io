@@ -41,6 +41,7 @@ h1{
 h2{
   &:extend(h1);
   font-size: 2.5rem;
+  box-shadow: 0 4px 2px -2px gray;
 }
 h3{
   padding: 2vh;
@@ -113,14 +114,9 @@ h3{
   /*background-color: gray;
   background-image: repeating-linear-gradient(45deg, transparent, transparent 35px, rgba(255,255,255,.5) 35px, rgba(255,255,255,.5) 70px);*/
   padding-bottom: 1vw;
-  background:-webkit-radial-gradient(center, ellipse farthest-corner, rgba(255, 250, 201, 0.32) 0%, rgba(253, 152, 129, 0.59) 75%);
+  /*background:-webkit-radial-gradient(center, ellipse farthest-corner, rgba(255, 250, 201, 0.32) 0%, rgba(253, 152, 129, 0.59) 75%);*/
+  background:-webkit-radial-gradient(center, ellipse farthest-corner, rgba(255, 250, 201, 0.32) 0%, #FFD9AD 75%);
 }
-
-.image_thumb{
-  width: 33vw;
-  padding: 0.5vw;
-}
-
 .image_caption{
   position: absolute;
   top: 0;
@@ -130,14 +126,20 @@ h3{
   color: #fff;
   visibility: hidden;
   opacity: 0;
-
-  /* transition effect. not necessary */
   transition: opacity .5s ease-in;
 }
+.image_thumb{
+  transition: .5s ease-in;
+}
+.image_thumb:hover{
+  transform: rotate(1deg) scale(0.97);
+}
+
+
 .img__wrap:hover .image_caption {
   visibility: visible;
   opacity: 1;
-  font-size: 9vh;
+  font-size: 5vw;
 }
 .image_link{
   position: relative;
@@ -249,9 +251,22 @@ h3{
 
 
 /* ====== Media Queries ====== */
-@media (min-width: 1200px) {
-  .container{
-    max-width: 157vh;
+@media (min-width: 576px){
+  .image_thumb{
+    width: 30vw;
+    padding: 0.5vw;
+  }
+}
+@media only screen and(min-width: 320px) and (max-width: 375px){
+  .image_thumb{
+    width: 80vw;
+    padding: 0.5vw;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 767px) {
+  .image_thumb {
+    width: 26vw;
+    padding: 1.5vw;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 499px){
@@ -277,6 +292,18 @@ h3{
     opacity: 0.8;
   }
 }
+@media (min-width: 1200px) {
+  .container{
+    max-width: 157vh;
+  }
+  .image_thumb {
+    width: 29vw;
+    padding: 1.5vw;
+  }
+  h2,h3{
+    font-size: 2.5vw;
+  }
+}
 @media only screen and (min-width: 1600px) {
   .svg_bread {
     position: absolute;
@@ -285,6 +312,9 @@ h3{
     bottom: -14vh;
     z-index: 1;
     opacity: 0.8;
+  }
+  body{
+    font-size: 1.3vw;
   }
   .btn-secondary{
     font-size: 1.5vw;
