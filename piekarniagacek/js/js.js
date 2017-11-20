@@ -30,16 +30,18 @@ function scrollFunction() {
         document.getElementById("myBtn").style.display = "none";
     }
 }
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-    document.body.scrollTop = 0; // For Chrome, Safari and Opera
-    document.documentElement.scrollTop = 0; // For IE and Firefox
+$(function() {
+    $(".scroll").click(function(){
+        $("html,body").animate({
+            scrollTop:$(".thetop").offset().top},"1000");
+        return false})
 }
+)
 
 //SMOOTH SCROLLING SKRYPT:
 
 // Add smooth scrolling on all links inside the navbar
-$('#main-navbar a, header a, #myBtn').on('click', function(event) {
+$('#main-navbar a, header a').on('click', function(event) {
 
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {

@@ -87,13 +87,17 @@ h3 {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   text-align: center;
-  bottom: -20.5vh;
+  bottom: -19.5vh;
   color: #fff;
   background: #9fd367;
   border-radius: 50%;
   width: 30vh;
   height: 30vh;
   cursor: pointer;
+}
+.goto:hover {
+  color: #fff;
+  text-decoration: none;
 }
 .cloud {
   -webkit-animation: 1s bounce ease-out infinite;

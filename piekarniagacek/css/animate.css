@@ -132,13 +132,13 @@
 }*/
 @keyframes bounce{
     0% {
-        bottom: -20.5vh;
+        bottom: -19.5vh;
     }
     50% {
-        bottom: -21.5vh;
+        bottom: -20.2vh;
     }
     100% {
-        bottom: -20.5vh;
+        bottom: -19.5vh;
     }
 }
 @keyframes move_in {
