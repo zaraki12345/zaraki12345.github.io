@@ -31,7 +31,7 @@ function scrollFunction() {
     }
 }
 $(function() {
-    $(".scroll").click(function(){
+    $(".scroll, .navbar-brand").click(function(){
         $("html,body").animate({
             scrollTop:$(".thetop").offset().top},"1000");
         return false})
@@ -64,4 +64,10 @@ $('#main-navbar a, header a').on('click', function(event) {
 
     } // End if
 
+});
+
+/*AOS Library*/
+
+AOS.init({
+    duration: 1500,
 });

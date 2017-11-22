@@ -10,6 +10,13 @@ body {
   position: relative;
   overflow-y: scroll;
 }
+body span,
+body li {
+  font-family: 'Patrick Hand', cursive;
+}
+body ul {
+  -webkit-padding-start: 0px;
+}
 header {
   height: 100vh;
   background: -webkit-radial-gradient(center, ellipse farthest-corner, rgba(255, 250, 201, 0.32) 0%, #FFD9AD 75%);
@@ -41,6 +48,7 @@ h2 {
   box-shadow: 0 4px 2px -2px gray;
 }
 h3 {
+  font-family: 'Fredericka the Great', cursive;
   padding: 2vh;
 }
 /* ====== Layout tags ====== */
@@ -102,6 +110,15 @@ h3 {
 .cloud {
   -webkit-animation: 1s bounce ease-out infinite;
   animation: 1s bounce ease-out infinite;
+}
+.oferta_list {
+  padding: 3.5vw;
+}
+.oferta_list ul {
+  list-style: none;
+}
+.oferta_list ul li {
+  padding: 0.5vw;
 }
 .background_layout {
   background-color: #9fd367;
