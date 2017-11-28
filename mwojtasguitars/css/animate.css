@@ -66,10 +66,10 @@
 }
 @keyframes changecolor{
     0%, 100% {
-        color: rgb(169, 144, 122);
+        color: black;
     }
     50% {
-        color: #3f342c;
+        color: white;
     }
 }
 @keyframes bounce{
