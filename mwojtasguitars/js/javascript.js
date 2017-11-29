@@ -64,15 +64,15 @@ $('#main-navbar a, header a').on('click', function(event) {
 // AOS ANIMACJA
 
 AOS.init({
-    duration: 1200,
-})
+    duration: 1000,
+});
 
 $(document).ready(function(){
     $("#hide").click(function(){
-        $(".author").hide(1000);
+        $(".first-row-images").hide(1000);
     });
     $("#show").click(function(){
-        $(".author").show(1000);
+        $(".first-row-images").show(1000);
     });
 });
 
