@@ -67,5 +67,12 @@ AOS.init({
     duration: 1200,
 })
 
-
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $(".author").hide(1000);
+    });
+    $("#show").click(function(){
+        $(".author").show(1000);
+    });
+});
 
