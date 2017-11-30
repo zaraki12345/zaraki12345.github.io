@@ -12,7 +12,7 @@ function scrollFunction() {
 $(function() {
         $(".scroll, .navbar-brand").click(function(){
             $("html,body").animate({
-                scrollTop:$(".thetop").offset().top},"1000");
+                scrollTop:$(".thetop").offset().top},"3000");
             return false})
     }
 )
@@ -69,10 +69,10 @@ AOS.init({
 
 $(document).ready(function(){
     $("#hide").click(function(){
-        $(".first-row-images").hide(1000);
+        $(".hidden-row-images").hide(1000);
     });
     $("#show").click(function(){
-        $(".first-row-images").show(1000);
+        $(".hidden-row-images").show(1000);
     });
 });
 

@@ -5,7 +5,7 @@
 
 @keyframes dash {
   from {
-    stroke-dashoffset: 340;
+    stroke-dashoffset: 480;
   }
   to {
     stroke-dashoffset: 0;
@@ -20,41 +20,14 @@
    }
  }
 
-@keyframes dash-l {
+@keyframes dash-guitars {
     from {
-        stroke-dashoffset: 350;
+        stroke-dashoffset: 510;
     }
     to {
         stroke-dashoffset: 0;
     }
 }
-
-
-@keyframes dash-iz {
-    from {
-        stroke-dashoffset: 250;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-@keyframes dash-s {
-    from {
-        stroke-dashoffset: 390;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-@keyframes dash-t {
-    from {
-        stroke-dashoffset: 222;
-    }
-    to {
-        stroke-dashoffset: 0;
-    }
-}
-
 
 @keyframes fill-it{
     50%{

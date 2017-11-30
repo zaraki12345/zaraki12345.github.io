@@ -58,13 +58,13 @@ h6{
   }
 }
 .background-design{
-  background: url(../img/1m.jpg) no-repeat center fixed;
+  background: url(../img/3m.jpg) no-repeat center fixed;
   background-size:cover;
   height: 17vw;
 }
 .background-design2{
   &:extend(.background-design);
-  background: url(../img/5m.jpg) no-repeat center fixed;
+  background: url(../img/1m.jpg) no-repeat center fixed;
   background-size:cover;
 }
 .background-design3{
@@ -105,9 +105,10 @@ h6{
   transition: .5s ease-in;
   box-shadow: inset 0 0 1em white, 0 0 1em #13111196;
   border-radius: 5%;
+  max-width: 100%;
 }
 .image_thumb:hover{
-  transform: rotate(1deg) scale(0.97);
+  transform: scale(0.95);
 }
 
 
@@ -119,7 +120,7 @@ h6{
 .image_link{
   position: relative;
 }
-.first-row-images{
+.hidden-row-images{
   display: none;
 }
 /* ====== Bootstrap tags ====== */
@@ -404,29 +405,29 @@ h6{
 /* ===== SVG =====*/
 
 .M-text-logo{
-  stroke-dasharray: 340;
-  stroke-dashoffset: 340;
+  stroke-dasharray: 480;
+  stroke-dashoffset: 480;
   stroke-width: 0.5px;
-  animation: dash 2s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it .1s linear 1.5s forwards;
+  animation: dash 1s cubic-bezier(0.47, 0, 0.75, 0.72) forwards, fill-it .1s linear 1.1s forwards;
   //stroke-opacity: 0.3;
 }
 .Kropka-text-logo{
   stroke-dasharray: 194;
   stroke-dashoffset: 194;
   stroke-width: 0.5px;
-  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.5s forwards, fill-it .1s linear 2.4s forwards;
+  animation: dash-small .1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.2s forwards, fill-it .1s linear 1.3s forwards;
 }
 .Wojtas-text-logo{
-  stroke-dasharray: 194;
-  stroke-dashoffset: 194;
+  stroke-dasharray: 480;
+  stroke-dashoffset: 480;
   stroke-width: 0.5px;
-  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.8s forwards, fill-it .1s linear 2.6s forwards;
+  animation: dash 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.2s forwards, fill-it .1s linear 2.4s forwards;
 }
 .Guitars-text-logo{
-  stroke-dasharray: 194;
-  stroke-dashoffset: 194;
+  stroke-dasharray: 510;
+  stroke-dashoffset: 510;
   stroke-width: 0.5px;
-  animation: dash-small 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.1s forwards, fill-it .1s linear 2.8s forwards;
+  animation: dash-guitars 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.4s forwards, fill-it .1s linear 3.5s forwards;
 }
 
 .M-text-logo,
