@@ -198,6 +198,9 @@ h6 {
     text-decoration: none !important;
     width: 50%;
   }
+  .col-sm-2 {
+    margin-top: 15px;
+  }
 }
 @media screen and (min-width: 413px) and (max-width: 767px) {
   .meimg {
