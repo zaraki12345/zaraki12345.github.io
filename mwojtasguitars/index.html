@@ -89,7 +89,7 @@
     <section class="container text-center offer">
         <h2 data-aos="fade-up" >PROJEKTY</h2>
         <!-- First row of photos-->
-            <div class="row text-center">
+            <div class="row text-center" data-aos="fade-up">
 
                 <div class="col-sm-2">
                     <a class="image_link img__wrap" href="img/projekty/1.%20Telecaster/DSCF1695.JPG" data-lightbox="1.Telecaster" data-title="Telecaster">
@@ -184,7 +184,7 @@
         <!--/ First row of photos-->
 
         <!-- Second row of photos-->
-        <div class="row text-center mt-3">
+        <div class="row text-center mt-3" data-aos="fade-up">
 
             <div class="col-sm-2">
                 <a class="image_link img__wrap" href="img/projekty/7.%20SG%20Beerson/7-SG-Beerson.JPG" data-lightbox="7.SGBeerson" data-title="SG Beerson">
@@ -277,7 +277,7 @@
                 </a>
             </div>
 
-            <button type="button" class="btn btn-dark" id="show">Więcej</button>
+            <button type="button" class="btn btn-dark" id="show" data-aos="fade-up" data-aos-offset="10">Więcej</button>
         </div>
         <!--/ Second row of photos-->
 
@@ -904,7 +904,7 @@
             </div>
             <div class="col-lg-8">
                 <h4 data-aos="fade-right">Napisz do mnie</h4>
-                <form id="contact-form" method="post" action="contact.php" role="form" data-aos="fade-right">
+                <form id="contact-form" method="post" action="contact.php" role="form">
 
                     <div class="messages"></div>
 
@@ -913,31 +913,15 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="form_name">Imię i nazwisko *</label>
-                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Proszę wpisz swoje imię i nazwisko *" required="required" data-error="Imię i nazwisko jest wymagane">
+                                    <label for="form_name" data-aos="fade-right">Imię i nazwisko *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" data-aos="flip-up" placeholder="Proszę wpisz swoje imię i nazwisko *" required="required" data-error="Imię i nazwisko jest wymagane">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="form_lastname">Telefon *</label>
-                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Proszę wpisz swój numer telefonu *" required="required" data-error="Numer telefonu jest wymagany">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_email">Email *</label>
-                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Proszę wpisz swój adres email *" required="required" data-error="Wpisz prawidłowy adres e-mail">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="form_phone">Firma</label>
-                                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Proszę podaj nazwę firmy">
+                                    <label for="form_lastname" data-aos="fade-right">Telefon *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" data-aos="flip-up" placeholder="Proszę wpisz swój numer telefonu *" required="required" data-error="Numer telefonu jest wymagany">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -945,13 +929,22 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label for="form_message">Wiadomość *</label>
-                                    <textarea id="form_message" name="message" class="form-control" placeholder="Wiadomość dla mnie *" rows="4" required="required" data-error="Proszę zostaw mi wiadomość"></textarea>
+                                    <label for="form_email" data-aos="fade-right">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" data-aos="flip-up" placeholder="Proszę wpisz swój adres email *" required="required" data-error="Wpisz prawidłowy adres e-mail">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="form_message" data-aos="fade-right">Wiadomość *</label>
+                                    <textarea id="form_message" name="message" class="form-control" data-aos="flip-up" placeholder="Wiadomość dla mnie *" rows="4" required="required" data-error="Proszę zostaw mi wiadomość"></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <input type="submit" class="btn btn-primary" role="button" value="Wyślij wiadomość">
+                                <input type="submit" class="btn btn-primary" role="button" value="Wyślij wiadomość" data-aos="flip-up">
                             </div>
                         </div>
                         <div class="row">

@@ -65,6 +65,8 @@ $('#main-navbar a, header a').on('click', function(event) {
 
 AOS.init({
     duration: 1000,
+    offset: 50,
+    disable: 'mobile'
 });
 
 $(document).ready(function(){
