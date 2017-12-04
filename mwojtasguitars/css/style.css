@@ -1,11 +1,11 @@
 /* ====== Import styles ====== */
 @import "animate.css";
 @font-face {
-  font-family: Blacksword;
+  font-family: Vivaldi;
   src: url('../css/vivaldi.ttf');
 }
 @font-face {
-  font-family: Blacksword;
+  font-family: Vivaldi;
   font-weight: bold;
   src: url('../css/vivaldi.ttf');
 }
@@ -192,7 +192,7 @@ h6 {
     margin-bottom: 30px;
   }
   .navbar-brand-2 {
-    font-family: 'Blacksword', cursive;
+    font-family: 'Vivaldi', cursive;
     color: #fff !important;
     font-size: 19px !important;
     text-decoration: none !important;
@@ -365,13 +365,19 @@ h6 {
     max-width: 100%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 769px) {
-  /*  .photo.large{
-    margin-top: -30% !important;
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  #myBtn {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
   }
-  .photo.medium.second {
-    margin-top: -31.2% !important;
-  }*/
+}
+@media screen and (min-width: 1440px) {
+  #myBtn {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
 }
 @media screen and (min-width: 900px) {
   .navbar-brand-2 {
