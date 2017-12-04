@@ -22,7 +22,7 @@
 
 @keyframes dash-guitars {
     from {
-        stroke-dashoffset: 515;
+        stroke-dashoffset: 517;
     }
     to {
         stroke-dashoffset: 0;

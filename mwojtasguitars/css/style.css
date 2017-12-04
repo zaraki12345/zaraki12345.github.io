@@ -431,8 +431,8 @@ h6 {
   animation: dash 1s cubic-bezier(0.47, 0, 0.75, 0.72) 1.2s forwards, fill-it 0.1s linear 2.4s forwards;
 }
 .Guitars-text-logo {
-  stroke-dasharray: 515;
-  stroke-dashoffset: 515;
+  stroke-dasharray: 517;
+  stroke-dashoffset: 517;
   stroke-width: 0.5px;
   animation: dash-guitars 1s cubic-bezier(0.47, 0, 0.75, 0.72) 2.4s forwards, fill-it 0.1s linear 3.5s forwards;
 }
