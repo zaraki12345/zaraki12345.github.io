@@ -89,6 +89,12 @@ h6 {
   min-height: 100px;
   padding-top: 70px;
 }
+.author a {
+  color: black;
+}
+.author a:hover {
+  text-decoration-line: overline;
+}
 .image_caption {
   position: absolute;
   top: 0;
