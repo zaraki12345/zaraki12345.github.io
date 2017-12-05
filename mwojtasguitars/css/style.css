@@ -9,6 +9,15 @@
   font-weight: bold;
   src: url('../css/vivaldi.ttf');
 }
+@font-face {
+  font-family: Vivaldi;
+  src: url('../css/vivaldi.woff');
+}
+@font-face {
+  font-family: Vivaldi;
+  font-weight: bold;
+  src: url('../css/vivaldi.woff');
+}
 /* ====== Variables ====== */
 /* ====== Mixins ====== */
 .domieszka-tranistion {
