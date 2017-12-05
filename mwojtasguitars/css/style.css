@@ -53,12 +53,18 @@ h6 {
 /* ====== Layout tags ====== */
 .main-header {
   position: relative;
-  background: url("../img/5m.jpg") center no-repeat;
+  background: url("../img/5ma.jpg") center no-repeat;
   background-size: cover;
   height: 100vh;
   padding: 0;
   margin: 0;
   overflow: hidden;
+}
+.header-signature {
+  color: #a3a3a8;
+  position: absolute;
+  right: 0;
+  bottom: 2vw;
 }
 .offer ul {
   padding-left: 0;
